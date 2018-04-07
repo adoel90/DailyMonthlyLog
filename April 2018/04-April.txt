@@ -1,0 +1,36 @@
+#BUG
+
+	- MANAJEMEN PRODUK - Daftar Produk 
+
+		***GET LIST PRODUK sudah muncul, namun baru muncul hanya 1 Store
+
+	
+	- MANAJEMEN DISKON - Daftar Diskon
+
+		***GET LIST DISCOUNT sudah muncul, namun baru muncul hanya 1 Store
+
+		***UPDATE masih belum belum 100% clear, mesti di review code lagi !!!
+
+		***DELETE belum di kerjain
+
+
+	- MANAJEMEN STAFF - Daftar Staff
+
+		*** Id Level BELUM BISA tampil di tabel Front End
+
+
+#
+	- containers/
+
+		***SettingsCafeContainer.js
+		***SettingsCafeTypeContainer.js
+
+	- components/Settongs/
+
+		***SettingsCafe.js
+		***SettingsCafeMenuList.js
+		***SettingsCafeType.js
+
+	- CONTOH LINK 
+
+		***Login sebagai "admin" in link project DAVID

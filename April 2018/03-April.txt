@@ -1,0 +1,73 @@
+#
+
+	- 
+
+		Q.A. Admin 805CARWASH - 03 april
+		adul:
+		STORE
+		----------------------
+		-upload produk, data tidak berhasil masuk (owner/kasir store)
+		-pendaftaran kartu baru, khusus taxi online tertera khusus nominal (dropdown)
+		-Ubah informasi produk, bukan store, harus bisa re-upload image
+		-buat promosi (add)
+		-list store yang dimiliki 1 owner
+		-daftar produk, ubah data tidak langsung update, harus refresh. Seharusnya bisa langsung update
+		-harus ada tambah staff pada store yg ditambahkan oleh owner
+		-harus otomatis update ketika produk ditambahkan oleh owner/kasir store
+		-perhatikan typo
+
+
+#
+
+	- 
+
+		Q.A. Admin 805CARWASH - 03 april
+		adul:
+		STORE
+		----------------------
+		-upload produk, data tidak berhasil masuk (owner/kasir store) ==> DONE
+
+		-pendaftaran kartu baru, khusus taxi online tertera khusus nominal (dropdown)
+
+		-Ubah informasi produk, bukan store, harus bisa re-upload image ==> DONE 
+
+		-buat promosi (add) ==> DONE
+
+		-list store yang dimiliki 1 owner ==> DONE
+
+		-daftar produk, ubah data tidak langsung update, harus refresh. Seharusnya bisa langsung update ==> DONE
+
+		-harus ada tambah staff pada store yg ditambahkan oleh owner
+
+		-harus otomatis update ketika produk ditambahkan oleh owner/kasir store ==> DONE
+
+		-perhatikan typo
+
+
+#BUG
+
+	- MANAJEMEN PRODUK - Daftar Produk 
+
+		*** John Rambo ga dapet (NOT Get List) produk dari ke-2 store
+
+
+	- MANAJEMEN STAFF - Buat Staff Baru 
+
+		***tapi pas klik Button "Simpan" ga muncul Modal Berhasil/ or not
+
+		***GA BISA CREATE - responese 500 || "Server connection unexpected error"
+
+
+	- MANAJEMEN STAFF - Daftar Staff ==> DONE
+
+		***Field Akses Level Karyawan di muncul-keun pake dropdownlist
+
+		*** Nampilin id level
+
+		***
+			accessLevel : [
+
+				{ id : 4 , name : Owner},
+				{ id : 5 , name : Kasir Store},
+				{ id : 6 , name : Staff Store},
+			]

@@ -1,0 +1,30 @@
+   const rows = [];
+        if (vendorEmployeeList.isLoaded) {
+            vendorEmployeeList.data.data.result.staff.forEach((employee, i) => {
+                let row = {
+                    id: employee.id,
+                    name: employee.name,
+                    username: employee.username,
+                    email: employee.email,
+                    level: employee.level,
+                    status: employee.status,
+                    password: employee.password
+                    // price: employee.price,
+                    // data: menu
+                }
+
+                rows.push(row);
+            })
+        } 
+        
+        this.setState({
+            ...this.state,
+            table: {
+                ...this.state.table,
+                columns: columns,
+                rows: rows
+            }
+        })
+
+
+

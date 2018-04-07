@@ -1,0 +1,68 @@
+#Get report store owner
+
+	- http://128.199.177.16:3307/store/report?accessToken={accessToken} 
+
+	- http://128.199.177.16:3307/store/report?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MywibmFtZSI6IkFuZHJlIFJpemtpYW5hIFdhbmRpcmEiLCJ1c2VybmFtZSI6ImFuZHJlcnciLCJlbWFpbCI6ImFuZHJlci5yaXpraWFuYS53QGdtYWlsLmNvbSIsInZlbmRvciI6MjksImFjY2VzcyI6eyJjb2RlIjowLCJuYW1lIjoiQWRtaW4ifSwic3RhdHVzIjp0cnVlfQ.9tgN_WWjZ-uUJOLvH-Enu5muz_kUDFgV58WhcRjUv58&type=&start_date=2018-12-01&end_date=2018-01-30&store=1
+
+
+# Create New Store Menu
+
+	http://128.199.177.16:3307/store/menu/create?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjozOCwidV9uYW1lIjoiQW5kcmUgUml6a2lhbmEgV2FuIiwidV91c2VybmFtZSI6ImFuZHJlcnczIiwidV9lbWFpbCI6ImFuZGRkZEBnbWFpbC5jb20iLCJ1X3Bhc3N3b3JkIjoiN2MyMjJmYjI5MjdkODI4YWYyMmY1OTIxMzRlODkzMjQ4MDYzN2MwZCIsInVsX2lkIjo0LCJjcmVhdGVkX2F0IjoiMjAxOC0wMy0xMVQyMzozMTo1OC43MThaIiwidXBkYXRlZF9hdCI6IjIwMTgtMDMtMjhUMTQ6MTI6MTEuMDAwWiIsImRlbGV0ZWRfYXQiOm51bGwsInVsX25hbWUiOiJPd25lciJ9.a8gTRF-rQy0bIZx4lNFT7LzHPgIIqvfAsAqhSngbFao 
+
+
+# Update store discount data
+
+	http://128.199.177.16:3307/store/discount/update?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjozOCwidV9uYW1lIjoiQW5kcmUgUml6a2lhbmEgV2FuIiwidV91c2VybmFtZSI6ImFuZHJlcnczIiwidV9lbWFpbCI6ImFuZGRkZEBnbWFpbC5jb20iLCJ1X3Bhc3N3b3JkIjoiN2MyMjJmYjI5MjdkODI4YWYyMmY1OTIxMzRlODkzMjQ4MDYzN2MwZCIsInVsX2lkIjo0LCJjcmVhdGVkX2F0IjoiMjAxOC0wMy0xMVQyMzozMTo1OC43MThaIiwidXBkYXRlZF9hdCI6IjIwMTgtMDMtMjhUMTQ6MTI6MTEuMDAwWiIsImRlbGV0ZWRfYXQiOm51bGwsInVsX25hbWUiOiJPd25lciJ9.a8gTRF-rQy0bIZx4lNFT7LzHPgIIqvfAsAqhSngbFao
+
+
+
+
+
+#Get Storre Discount List 
+
+	-	
+
+		http://128.199.177.16:3307/store/discount/list?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjozLCJ1X25hbWUiOiJLYXNpciIsInVfdXNlcm5hbWUiOiJrYXNpciIsInVfZW1haWwiOiJrYXNpckBlbWFpbC5jb20iLCJ1X3Bhc3N3b3JkIjoiN2MyMjJmYjI5MjdkODI4YWYyMmY1OTIxMzRlODkzMjQ4MDYzN2MwZCIsInVsX2lkIjozLCJjcmVhdGVkX2F0IjoiMjAxOC0wMy0xMVQyMzozMTo1OC43MThaIiwidXBkYXRlZF9hdCI6IjIwMTgtMDMtMTRUMDM6MzY6MjEuMDAwWiIsImRlbGV0ZWRfYXQiOm51bGwsInVsX25hbWUiOiJLYXNpciBHbG9iYWwifQ.RatQc_PMIQ4_hn-VLJkrpB0qTzdU2iUvZfx-2giSHz0&id=5&start_date=2018-03-01&end_date=2018-04-30
+
+
+	- Response :
+
+		***Properties "price" itu --> DISCOUNT
+
+		{
+		    "status": 200,
+		    "message": null,
+		    "result": {
+		        "row": "1",
+		        "promo": [
+		            {
+		                "id": 2,
+		                "price": "15",
+		                "date": "21 Mar 2018"
+		            }
+		        ]
+		    }
+		}
+
+
+#Cara supaya Ihsan connect pake web aplikasi gw:
+
+    - serve -s build
+
+    - http://192.168.1.175:5000 
+
+
+
+
+#Insya Allah hari ini : 
+
+	- Tambah Field Produk Store in Modal & re upload image ==> DONE
+
+	- Upload data sesuai dengan real. ==> DONE
+
+	
+#Functional React
+
+	- https://medium.com/@arqex/non-functional-react-js-6e020ce27ee2
+
+
