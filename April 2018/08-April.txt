@@ -1,0 +1,5 @@
+#Tips in React about checkbox
+
+	- http://react.tips/checkboxes-in-react/
+	
+	- https://github.com/fedosejev/checkboxes-in-react.git
