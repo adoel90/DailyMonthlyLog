@@ -3,3 +3,14 @@
 	- http://react.tips/checkboxes-in-react/
 	
 	- https://github.com/fedosejev/checkboxes-in-react.git
+
+
+
+# Use this to styling Input Checkbox :
+
+	- https://andycrone.com/articles/code-snippets/custom-css3-checkbox-sass/
+
+
+#Testing React Apps
+
+	- https://facebook.github.io/jest/docs/en/tutorial-react.html
