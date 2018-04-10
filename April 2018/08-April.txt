@@ -31,14 +31,13 @@
 	- Akses level pada staff store  ==> API trouble
 	- Transaksi, jangan check box 
 	- Diskon input manual pada saat checkout 
-
-	- Daftar staff, ubah status staff ke store yg lain dalam 1 owner jika memilliki beberapa store. ==> Add Dropdownlist Store ketika UPDATE ==> INI PERLU CONFIRM Andre, cause API-nya ga ada parameter Store Id
-	
-	- Buat staff baru, field password jangan lupa di enrcrypt ==> Troubleshooting in if Else Password
-	- Tabel list jangan kosong ==> ON PROGRESS SOLVING
-	- Buat menu baru, store tujuan "cafe 2" masuk ke "cafe 1", dan sebaliknya.
-
-	- Buat menu baru, Apakah upload gambar masih perlu di store? ==> PASANG ==> DONE 
-	- Perhatikan penamaan label, harus konsisten
 	- Tidak bisa login dengan staff kasir store ==> API TROUBLE
+
+	- Perhatikan penamaan label, harus konsisten ==> DONE
+	- Buat menu baru, Apakah upload gambar masih perlu di store? ==> PASANG ==> DONE 
+	- Daftar staff, ubah status staff ke store yg lain dalam 1 owner jika memilliki beberapa store. ==> DONE
+	- Buat staff baru, field password jangan lupa di enrcrypt ==> DONE
+
+	- Buat menu baru, store tujuan "cafe 2" masuk ke "cafe 1", dan sebaliknya.
 	- Username pada store yg ditambahkan oleh owner tidak tersimpan (kosong) ==> AMBIGU
+	- Add status active nonactive in Daftar Staff
