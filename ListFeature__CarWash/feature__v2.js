@@ -31,25 +31,34 @@
 
 		***FEATURE_01, Tambahin "Laporan History", filter berdasarkan "nama customer" || Laporan History Customer
 
+		***"Pertanyaan-nya itu Customer dari Setiap Store juga ?"
+
 #
 
 	Scenario: Cerita-nya SuperAdministrator mau Buat Store Baru dan memiliih Kategori
 
 		***BUG_01, Kategori hanya berisi pilihan : 1. Service & 2. F & B
 
-# "3 hari"
+
+# 
 
 	Scenario: Cerita-nya "Owner" pengen tahu laporan- laporan yang ada di Store milik-nya (LAPORAN BISA DI PRINT MELALUI PC)
 
 		***FEATURE_01, Laporan barang di jual per-tanggal/ transaksi
 
-			- Apaan aja y
+			- Apaan aja y ?
 
 		***FEATURE_02, Print list menu 
 
 		***FEATURE_03, Laporan total penjualan per-hari dari tanggal sekian ke sekian
 
 			- Jumlah penjualan perhari.
+
+
+	Scenario: Cerita-nya login as "SuperAdministrator" pengen KEPO juga 
+				dari setiap Laporan yang di miliki Store Owner
+
+		***"Pertanyaan-nya apa aja yang ingin di tampilin di dalam laporan tsb ?" 
 
 
 # 	
@@ -59,7 +68,7 @@
 		***BUG_01, Apa-nya yang tidak harus lengkap ?
 
 
-#"3hari"
+#
 
 	Scenario : Ceritanya Customer gesek kartu, kemudian nomor seri kartu itu di 'hide'
 
@@ -84,5 +93,8 @@
 		***BUG_01, NOT REQUIREMENT
 
 
+#
+
+	Scenario : 
 
 
