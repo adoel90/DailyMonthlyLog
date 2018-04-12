@@ -5,10 +5,10 @@
 	- https://github.com/fedosejev/checkboxes-in-react.git
 
 
-
 # Use this to styling Input Checkbox :
 
 	- https://andycrone.com/articles/code-snippets/custom-css3-checkbox-sass/
+
 
 
 #Testing React Apps
@@ -18,9 +18,7 @@
 	- https://facebook.github.io/jest/docs/en/more-resources.html
 
 
-
 #
-
 	checkbox_with_label.test.js
 
 
@@ -39,4 +37,4 @@
 	- Buat staff baru, field password jangan lupa di enrcrypt ==> DONE
 	- Buat menu baru, store tujuan "cafe 2" masuk ke "cafe 1", dan sebaliknya. ==> DONE
 	- Username pada store yg ditambahkan oleh owner tidak tersimpan (kosong) ==> DONE
-	- Add status active nonactive in Daftar Staff ==> on progress me
+	- Add status active nonactive in Daftar Staff ==> on progress megit 
