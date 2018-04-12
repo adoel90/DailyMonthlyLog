@@ -10,13 +10,24 @@
 
 		***BUG_01, GANTI userlogin "admin" MENJADI "superadministrator"
 
-# "2 hari"
+
+# FOKUS INI DULU 
 
 	Scenario: Ceritanya "Kasir/Kasir Member" pengen tahu laporan - laporan aktifitas yang terjadi di kasir
 
 		***FEATURE_01, Laporan top-up harian
 
-		***FEATURE_02, Laporan closing-an per-shift & per-login
+			- Nama Customer
+
+			- Tanggal Top top-up
+
+			- Nominal Saldo yang di top-up
+
+			- 
+
+		***FEATURE_02a, Laporan Kartu Baru harian
+
+		***FEATURE_02b, Laporan closing-an per-shift & per-login
 
 		***FEATURE_03, Print when buat kartu baru 
 
@@ -24,14 +35,30 @@
 
 		***FEATURE_05, Print when Refund
 
-# "5 hari"
 
-	Scenario: Ceritanya SuperAdministrator mau lihat histori dari setiap "Customer" telah membeli apa aja 
+#
+
+	Scenario : Ceritanya Login as Staff "fahmi87654321" dari si owner pengen buat laporan 
+
+		***BUG_01, tampil page Laporan yang isi-nya barang/ transaksi apa aja yang sudah di lakukan di hari itu 
+
+		***BUG_02, ga ada report menu produk yang sudah di jual
+
+
+	Scenario : Ceritanya Login as SuperAdministrator juga pengen KEPO 
+				aktifitas Si Staff & laporan yang di buat dari suatu Store
+
+		***BUG_01, NOT REQUIREMENT
+
+
+# 
+
+	Scenario: Ceritanya login as SuperAdministrator mau lihat histori dari setiap "Customer" telah membeli apa aja 
 				di semua store & transaksi (LAPORAN DI SUPERADMINISTRATOR)
 
 		***FEATURE_01, Tambahin "Laporan History", filter berdasarkan "nama customer" || Laporan History Customer
 
-		***"Pertanyaan-nya itu Customer dari Setiap Store juga ?"
+		***"Pertanyaan-nya itu keseluruhan Customer ?"
 
 #
 
@@ -78,23 +105,5 @@
 	Scenario : Cerita-nya ketika print-out apa yang di beli Customer
 
 		***BUG_01, tambahin nama store di print-out
-
-
-#
-
-	Scenario : Ceritanya Login as Staff "fahmi87654321" dari si owner pengen buat laporan 
-
-		***BUG_01, tampil page Laporan yang isi-nya barang/ transaksi apa aja yang sudah di lakukan di hari itu 
-
-
-	Scenario : Ceritanya Login as SuperAdministrator juga pengen KEPO 
-				aktifitas Si Staff & laporan yang di buat dari suatu Store
-
-		***BUG_01, NOT REQUIREMENT
-
-
-#
-
-	Scenario : 
 
 
