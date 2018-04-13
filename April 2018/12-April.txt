@@ -1,6 +1,47 @@
+
+
 # GW MESTI BIKIN TRELLO TO DO LIST
 
 
 #Link Production
 
-	- http://128.199.177.16:7600/admin
+	- http://128.199.177.16:7600/admin\
+
+
+#
+
+	- handleTopUpPaymentCheckoutSubmit
+
+
+#
+
+	- https://trello.com/b/szyHPnc6
+
+	- https://trello.com/invite/b/szyHPnc6/5e7c05b2335fcf27846ca57d58faa02d/805carwash
+
+
+#
+
+	 /member/topup/print?accessToken={accessToken} Get Topup data
+
+
+#Top Up Id Transaction
+
+	- member.item.data.result.transaction
+
+
+#
+
+	***FEATURE_01, Laporan top-up harian
+
+		- Nama Customer ==> printData.result.name
+
+		- Tipe Kartu ==> ???
+
+		- Nominal Saldo yang di top-up ==> printData.result.topup
+ 
+		- Saldo Awal ==> printData.result.before
+
+		- Saldo Akhir ==> printData.result.balance
+
+		- Tanggal Top top-up
