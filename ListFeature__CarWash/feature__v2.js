@@ -19,11 +19,15 @@
 
 			- Nama Customer
 
-			- Tanggal Top top-up
-
 			- Nominal Saldo yang di top-up
 
-			- 
+			- Saldo Awal
+
+			- Saldo Akhir 
+
+			- Tanggal Top top-up
+
+
 
 		***FEATURE_02a, Laporan Kartu Baru harian
 
