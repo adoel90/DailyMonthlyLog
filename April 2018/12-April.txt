@@ -30,12 +30,13 @@
 	- member.item.data.result.transaction
 
 
-
 #
 
 	***FEATURE_01, Laporan top-up harian
 
 		- Nama Customer ==> printData.result.name
+
+		- Tipe Kartu ==> ???
 
 		- Nominal Saldo yang di top-up ==> printData.result.topup
  
