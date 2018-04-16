@@ -1,2 +1,65 @@
+
 #
-	
+
+	- https://trello.com/b/szyHPnc6
+
+	- https://trello.com/invite/b/szyHPnc6/5e7c05b2335fcf27846ca57d58faa02d/805carwash
+
+
+#
+
+	 /member/topup/print?accessToken={accessToken} Get Topup data
+
+
+#Top Up Id Transaction
+
+	- member.item.data.result.transaction
+
+
+#
+
+	***FEATURE_01, Laporan top-up harian
+
+		- Nama Customer ==> printData.result.name
+
+		- Tipe Kartu ==> ???
+
+		- Nominal Saldo yang di top-up ==> printData.result.topup
+ 
+		- Saldo Awal ==> printData.result.before
+
+		- Saldo Akhir ==> printData.result.balance
+
+		- Tanggal Top top-up
+
+
+	***FEATURE_03, Laporan refund harian
+
+		- Nama Customer ==> printData.item.data.card.name
+
+		- Tipe Kartu ==> printData.card.type.name
+ 
+		- Saldo Kartu ==> printData.data.balance
+
+		- Tanggal Top top-up
+
+
+#
+	- Laporan Kasir Member ==> Masih ambigu
+
+	- BUG_01, Laporan Owner Store mesti di tambahin tab kalo berisi 2 toko. ==> DONE
+
+
+#
+
+	- On the way "Laporan perstaff, perlogin" & "Laporan perhari/closing staff store"
+
+	- Get report owner list || /report/owner?accessToken={accessToken}
+
+		***staff (integer)
+		***store (integer)
+		***start_date (string)
+		***end_date (string)
+		***print (string)
+
+	- http://128.199.177.16:3307/store/list?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxMjMsInVfbmFtZSI6IlJ1ZGkgY3MiLCJ1X3VzZXJuYW1lIjoicnVkaSIsInVfZW1haWwiOiJydWRpQGdtYWlsLmNvbSIsInVfcGFzc3dvcmQiOiI3YzIyMmZiMjkyN2Q4MjhhZjIyZjU5MjEzNGU4OTMyNDgwNjM3YzBkIiwidWxfaWQiOjUsImNyZWF0ZWRfYXQiOiIyMDE4LTA0LTA5VDA1OjA4OjQ3LjEzNVoiLCJ1cGRhdGVkX2F0IjoiMjAxOC0wNC0xNVQyMzoxOTozNS4wMDBaIiwiZGVsZXRlZF9hdCI6bnVsbCwidWxfbmFtZSI6IlN0YWZmIn0.UIR0oDuD6KZYc_wfNm82D1JNi0M_hJvYLFq89w-iMec&staff=123&store=
