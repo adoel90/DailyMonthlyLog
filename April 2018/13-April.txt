@@ -50,19 +50,13 @@
 	- BUG_01, Laporan Owner Store mesti di tambahin tab kalo berisi 2 toko. ==> DONE
 
 
+
+
+
 #
-
-	- On the way "Laporan perstaff, perlogin" & "Laporan perhari/closing staff store"
-
 	- Get report owner list || /report/owner?accessToken={accessToken}
 
-		***staff (integer)
-		***store (integer)
-		***start_date (string)
-		***end_date (string)
-		***print (string)
-
-	- http://128.199.177.16:3307/store/list?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxMjMsInVfbmFtZSI6IlJ1ZGkgY3MiLCJ1X3VzZXJuYW1lIjoicnVkaSIsInVfZW1haWwiOiJydWRpQGdtYWlsLmNvbSIsInVfcGFzc3dvcmQiOiI3YzIyMmZiMjkyN2Q4MjhhZjIyZjU5MjEzNGU4OTMyNDgwNjM3YzBkIiwidWxfaWQiOjUsImNyZWF0ZWRfYXQiOiIyMDE4LTA0LTA5VDA1OjA4OjQ3LjEzNVoiLCJ1cGRhdGVkX2F0IjoiMjAxOC0wNC0xNVQyMzoxOTozNS4wMDBaIiwiZGVsZXRlZF9hdCI6bnVsbCwidWxfbmFtZSI6IlN0YWZmIn0.UIR0oDuD6KZYc_wfNm82D1JNi0M_hJvYLFq89w-iMec&staff=123&store=9
+	- http://128.199.177.16:3307/report/owner?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxMjMsInVfbmFtZSI6IlJ1ZGkgY3MiLCJ1X3VzZXJuYW1lIjoicnVkaSIsInVfZW1haWwiOiJydWRpQGdtYWlsLmNvbSIsInVfcGFzc3dvcmQiOiI3YzIyMmZiMjkyN2Q4MjhhZjIyZjU5MjEzNGU4OTMyNDgwNjM3YzBkIiwidWxfaWQiOjUsImNyZWF0ZWRfYXQiOiIyMDE4LTA0LTA5VDA1OjA4OjQ3LjEzNVoiLCJ1cGRhdGVkX2F0IjoiMjAxOC0wNC0xNVQyMzoxOTozNS4wMDBaIiwiZGVsZXRlZF9hdCI6bnVsbCwidWxfbmFtZSI6IlN0YWZmIn0.UIR0oDuD6KZYc_wfNm82D1JNi0M_hJvYLFq89w-iMec&staff=123&store=&start_date=2018-03-16&end_date=2018-04-16
 
 	http://128.199.177.16:3307/store/report?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxMjMsInVfbmFtZSI6IlJ1ZGkgY3MiLCJ1X3VzZXJuYW1lIjoicnVkaSIsInVfZW1haWwiOiJydWRpQGdtYWlsLmNvbSIsInVfcGFzc3dvcmQiOiI3YzIyMmZiMjkyN2Q4MjhhZjIyZjU5MjEzNGU4OTMyNDgwNjM3YzBkIiwidWxfaWQiOjUsImNyZWF0ZWRfYXQiOiIyMDE4LTA0LTA5VDA1OjA4OjQ3LjEzNVoiLCJ1cGRhdGVkX2F0IjoiMjAxOC0wNC0xNVQyMzoxOTozNS4wMDBaIiwiZGVsZXRlZF9hdCI6bnVsbCwidWxfbmFtZSI6IlN0YWZmIn0.UIR0oDuD6KZYc_wfNm82D1JNi0M_hJvYLFq89w-iMec&type=month&start_date=2018-03-16&end_date=2018-04-16&store=9
 
@@ -71,3 +65,5 @@
 #BUG_01	
 
 	- Hide input nomor kartu -- atur fokus type nya dul, jadi ketika ke klik di luar area text box masih bisa input.
+
+
