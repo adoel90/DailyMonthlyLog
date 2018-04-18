@@ -20,3 +20,76 @@
 	            background: #FAFAFA; /* Lighter grey background */
 	            text-align: center; /* Center our text */
 	        }
+
+
+#List to do to day
+
+	- ambil dari "crs805-queque"
+
+	- print via kertas kecil
+
+
+
+
+
+#BUG today
+
+	- Top Up Taxi Online not work
+
+	- Top Up David ngga masuk ke Laporan today ==> DONE
+
+	- Need styling table ==>DONE
+
+	- Untuk yang diskon 0% ga usah muncul-in ==> DONE
+
+
+#Member Id 
+
+	- 0011524030958907
+
+	- daniel
+
+
+#FEATURE SUPERADMIN
+
+	- Laporan "Owner" : ==> DONE
+
+		***/report/owner?accessToken={accessToken} Get report owner list
+		*** Nama Owner 
+		*** Email
+		*** Total
+
+
+	- Export to Microsoft Excell : ==> DONE
+
+			"Export to xls"
+
+
+
+#Store Staff
+
+	-  /store/staff/report/detail?accessToken={accessToken} Get report store staff detail
+
+	- Nama Customer
+
+	- Nomor Handphone
+
+	- Total Belanja
+
+		***Item apa aja yang di beli
+
+		***Harga Item tersebut
+
+		***Kuantiti
+
+
+#Owner
+
+	- Laporan Penjualan
+
+	- Laporan Menu
+
+	- From - to Datepicker
+
+
+

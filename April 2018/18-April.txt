@@ -3,10 +3,6 @@
 	- Nyontek-nya di page "Super Admin - Laporan"
 
 
-# BUG_01, "Kasir Member - Detail"
-
-	*** Need styling table
-
 
 #
 
@@ -30,7 +26,6 @@
 		http://128.199.177.16:3307/store/staff/report?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxMjMsInVfbmFtZSI6IlJ1ZGkgY3MiLCJ1X3VzZXJuYW1lIjoicnVkaSIsInVfZW1haWwiOiJydWRpQGdtYWlsLmNvbSIsInVfcGFzc3dvcmQiOiI3YzIyMmZiMjkyN2Q4MjhhZjIyZjU5MjEzNGU4OTMyNDgwNjM3YzBkIiwidWxfaWQiOjUsImNyZWF0ZWRfYXQiOiIyMDE4LTA0LTA5VDA1OjA4OjQ3LjEzNVoiLCJ1cGRhdGVkX2F0IjoiMjAxOC0wNC0xNVQyMzoxOTozNS4wMDBaIiwiZGVsZXRlZF9hdCI6bnVsbCwidWxfbmFtZSI6IlN0YWZmIn0.UIR0oDuD6KZYc_wfNm82D1JNi0M_hJvYLFq89w-iMec&staff=123&store=9&start_date=2018-03-16&end_date=2018-04-19
 
 
-
 #
 
 	- http://128.199.177.16:3307/store/staff/report?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxMjMsInVfbmFtZSI6IlJ1ZGkgY3MiLCJ1X3VzZXJuYW1lIjoicnVkaSIsInVfZW1haWwiOiJydWRpQGdtYWlsLmNvbSIsInVfcGFzc3dvcmQiOiI3YzIyMmZiMjkyN2Q4MjhhZjIyZjU5MjEzNGU4OTMyNDgwNjM3YzBkIiwidWxfaWQiOjUsImNyZWF0ZWRfYXQiOiIyMDE4LTA0LTA5VDA1OjA4OjQ3LjEzNVoiLCJ1cGRhdGVkX2F0IjoiMjAxOC0wNC0xNVQyMzoxOTozNS4wMDBaIiwiZGVsZXRlZF9hdCI6bnVsbCwidWxfbmFtZSI6IlN0YWZmIn0.UIR0oDuD6KZYc_wfNm82D1JNi0M_hJvYLFq89w-iMec&staff=123&store=9&start_date=2018-03-17&end_date=2018-04-17&print=null
@@ -39,3 +34,8 @@
 #
 
 	- https://www.figma.com/file/ZJgbBsXUe18rUUhzXO3Ocq4i/805CARWASH
+
+
+
+	
+
