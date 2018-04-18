@@ -92,4 +92,12 @@
 	- From - to Datepicker
 
 
+#
+	Tambahkan parameter "convert" dengan value "true" untuk mendapatkan file berupa excel (data.xls)
+
+	Export / Convert ke Excel API PATH :
+	1. /report/member/list
+	2. /store/report/transactions ==> NOT USE
+	3. /store/report/transactions/item ==> NOT USE
+
 
