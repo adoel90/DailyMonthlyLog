@@ -1,13 +1,4 @@
-#Owner
-
-	- Laporan Penjualan
-
-	- Laporan Menu
-
-	- From - to Datepicker
-
-
-# Laporan Super Admin 
+# Laporan Super Admin ==> DONE
 
 	- Laporan Penjualan ==> DONE
 
@@ -46,6 +37,23 @@
 
 		***Pindahin Button "Detail" ==> Ke Laporan "Member", dan ubah menjadi Button "History"
 
+
 	- Laporan Member 
 
 		***Add searching in Laporan Member
+
+
+	- Laporan Kasir Member
+
+		***ada bug dul di filter, ga bisa tampilin data tanggal sebelumnya + print laporan kasir di kertas 58mm 
+
+
+
+
+#Laporan Owner
+
+	- Laporan Penjualan
+
+	- Laporan Menu
+
+	- From - to Datepicker
