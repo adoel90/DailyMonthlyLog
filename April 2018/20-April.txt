@@ -7,11 +7,11 @@
 	- From - to Datepicker
 
 
-# Laporan Super Admin
+# Laporan Super Admin 
 
-	- Laporan Penjualan
+	- Laporan Penjualan ==> DONE
 
-	- Laporan Member
+	- Laporan Member ==> DONE
 
 
 
@@ -30,3 +30,22 @@
 	- Tanggal Transaksi --- last 
 
 	- Tanggal Transaksi Terakhir 
+
+
+#BUG Today
+
+	- Laporan perhari/closing staff store 
+
+		***Bug filter tanggal
+
+		***belum ada detailnya
+
+	- Laporan histori customer
+
+		***Perbaiki styling tabelnya
+
+		***Pindahin Button "Detail" ==> Ke Laporan "Member", dan ubah menjadi Button "History"
+
+	- Laporan Member 
+
+		***Add searching in Laporan Member
