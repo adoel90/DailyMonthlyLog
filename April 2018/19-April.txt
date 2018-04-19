@@ -83,13 +83,7 @@
 		***Kuantiti
 
 
-#Owner
 
-	- Laporan Penjualan
-
-	- Laporan Menu
-
-	- From - to Datepicker
 
 
 #

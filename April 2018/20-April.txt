@@ -1,0 +1,32 @@
+#Owner
+
+	- Laporan Penjualan
+
+	- Laporan Menu
+
+	- From - to Datepicker
+
+
+# Laporan Super Admin
+
+	- Laporan Penjualan
+
+	- Laporan Member
+
+
+
+#Apa - apa aja yang di tampilin di Laporan Member
+
+	- Nomor Kartu --- id
+
+	- Jenis Kartu --- card
+
+	- Nama Member --- name
+
+	- Tanggal Daftar --- created
+
+	- Saldo --- balance
+
+	- Tanggal Transaksi --- last 
+
+	- Tanggal Transaksi Terakhir 
