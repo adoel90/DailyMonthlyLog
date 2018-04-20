@@ -47,6 +47,25 @@
 
 		***ada bug dul di filter, ga bisa tampilin data tanggal sebelumnya + print laporan kasir di kertas 58mm 
 
+		***Yang di perluin di print :
+
+			>>>Tanggal 
+
+			>>>Nama Kasir
+
+			>>>Total
+
+			>>>Transaksi
+
+		*** ATAU 
+
+			>>> Nomor Invoice
+
+			>>> Total
+
+			>>>Tanggal 
+
+			>>>Nama Kasir
 
 
 
