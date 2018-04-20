@@ -35,7 +35,7 @@
 
 		***Pindahin Button "Detail" ==> Ke Laporan "Member", dan ubah menjadi Button "History" ==> DONE
 
-		***Perbaiki styling tabelnya ==> DINE
+		***Perbaiki styling tabelnya ==> DONE
 
 
 	- Laporan Kasir Member ==> DONE
@@ -57,5 +57,7 @@
 	- Laporan Menu
 
 	- From - to Datepicker
+
+
 
 #Check Saldo
