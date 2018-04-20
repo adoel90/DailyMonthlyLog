@@ -25,49 +25,30 @@
 
 #BUG Today
 
-	- Laporan perhari/closing staff store 
 
-		***Bug filter tanggal
+	- Laporan Member ==> DONE
 
-		***belum ada detailnya
+		***Add searching in Laporan Member ==> DONE
+
 
 	- Laporan histori customer
 
-		***Perbaiki styling tabelnya
+		***Pindahin Button "Detail" ==> Ke Laporan "Member", dan ubah menjadi Button "History" ==> DONE
 
-		***Pindahin Button "Detail" ==> Ke Laporan "Member", dan ubah menjadi Button "History"
-
-
-	- Laporan Member 
-
-		***Add searching in Laporan Member
+		***Perbaiki styling tabelnya ==> DINE
 
 
-	- Laporan Kasir Member
+	- Laporan Kasir Member ==> DONE
 
-		***ada bug dul di filter, ga bisa tampilin data tanggal sebelumnya + print laporan kasir di kertas 58mm 
-
-		***Yang di perluin di print :
-
-			>>>Tanggal 
-
-			>>>Nama Kasir
-
-			>>>Total
-
-			>>>Transaksi
-
-		*** ATAU 
-
-			>>> Nomor Invoice
-
-			>>> Total
-
-			>>>Tanggal 
-
-			>>>Nama Kasir
+		***ada bug dul di filter, ga bisa tampilin data tanggal sebelumnya + print laporan kasir di kertas 58mm  ==> DONE
 
 
+	- Laporan perhari/closing staff store
+
+		***Bug filter tanggal  ==> DONE
+
+		***belum ada detailnya
+		
 
 #Laporan Owner
 
@@ -76,3 +57,5 @@
 	- Laporan Menu
 
 	- From - to Datepicker
+
+#Check Saldo

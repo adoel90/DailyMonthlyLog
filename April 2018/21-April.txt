@@ -1,1 +1,24 @@
-# 
+#
+
+	- vendorState.reportDetailStoreStaff.data.result.data
+
+	- vendorState.reportDetailStoreStaff.data.result.data.map() 
+
+	- vendorState.reportDetailStoreStaff.isLoaded
+
+
+
+# Yang mau di tampil-keun di Laporan Staff -- Detail 
+
+	- Nama Customer
+
+	- No. Invoice
+
+	- Total Transaksi ... pada tanggal ...
+
+
+	- 
+
+		***Tanggal 		||	 Nama Item	|| 	Harga 	|| 	Total Item 	|| 	Nama Staff  || Nama Toko
+
+		   date 		||	 item[] 	|| 	price 	|| 	quantity 	|| 	user.name  || store.name
