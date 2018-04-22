@@ -8,14 +8,13 @@
 
 
 
-# Yang mau di tampil-keun di Laporan Staff -- Detail 
+# Yang mau di tampil-keun di Laporan Staff -- Detail ==> DONE
 
 	- Nama Customer
 
 	- No. Invoice
 
 	- Total Transaksi ... pada tanggal ...
-
 
 	- 
 

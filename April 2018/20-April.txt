@@ -5,7 +5,6 @@
 	- Laporan Member ==> DONE
 
 
-
 #Apa - apa aja yang di tampilin di Laporan Member
 
 	- Nomor Kartu --- id
@@ -23,8 +22,10 @@
 	- Tanggal Transaksi Terakhir 
 
 
-#BUG Today
+#Check Saldo ==> DONE
 
+
+#BUG Today
 
 	- Laporan Member ==> DONE
 
@@ -35,7 +36,7 @@
 
 		***Pindahin Button "Detail" ==> Ke Laporan "Member", dan ubah menjadi Button "History" ==> DONE
 
-		***Perbaiki styling tabelnya ==> DONE
+		***Perbaiki styling tabelnya ==> 70%
 
 
 	- Laporan Kasir Member ==> DONE
@@ -47,8 +48,13 @@
 
 		***Bug filter tanggal  ==> DONE
 
-		***belum ada detailnya
+		***belum ada detailnya ==> DONE
+
+		***Perbaiki styling tabelnya ==> DONE
+
+		***Bug filter tanggal (PART-02: Tak muncul transaksi per-hari ini)  ==> Bug ini kemungkinan dari BACK-END
 		
+
 
 #Laporan Owner
 
@@ -59,5 +65,9 @@
 	- From - to Datepicker
 
 
+# Printing
 
-#Check Saldo
+	- syling printnya tolong diperbaiki, bagian kanan banyak kosong.
+
+
+

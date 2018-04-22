@@ -1,0 +1,24 @@
+
+#Laporan Owner
+
+	- Laporan Penjualan
+
+		***/report/owner?accessToken={accessToken} Get report owner list ==> BUKAN YANG INI API-nya
+
+
+	- Laporan Menu
+
+		***/store/report/transactions?accessToken={accessToken} Get report store transaction owner
+
+	- From - to Datepicker
+
+
+
+#BUG
+	
+	- About Taxi Online can not top up
+
+	 
+
+	  
+
