@@ -6,17 +6,67 @@
 		***/report/owner?accessToken={accessToken} Get report owner list ==> BUKAN YANG INI API-nya
 
 
-	- Laporan Menu
+	- Laporan Menu ==> DONE
 
-		***/store/report/transactions?accessToken={accessToken} Get report store transaction owner
-
-	- From - to Datepicker
-
+		***/store/report/transactions/item?accessToken= || Get report store transaction per-item by store ==> Done
 
 
 #BUG
 	
 	- About Taxi Online can not top up ==> DONE
+
+
+
+#Bug Today
+
+	- Laporan Kasir ==> DONE
+
+		***Masih bug di filter tanggal. Coba mundur dari hari ke hari. 
+	  Ini berlaku di semua filter tanggal, tolong di cek lagi bagian yang menggunakan filter tanggal, 
+	  karena belum berfungsi sebagai mana seharusnya. 
+
+
+	- Laporan yang berurusan sama PRINT
+
+		***Laporan Store Staff - Rudi cs ==> DONE
+
+			***Kasir - Top Up -- Diskon 0 sudah tidak ada lagi ketika print, tapi nama store nya tidak ada?
+
+			>>>Done, print-out di Customer pakai nama Store, kalau yang di Kasir - Top Up tidak di pakai
+
+
+	- Owner - Laporan Menu -- Tab Cafe Siang 1 atau Cafe Siang Malam  ==> DONE
+
+		***Parameter API Belum nembak per-store :)
+
+
+	- *********************************************************************************************************
+
+	
+	- Owner - Laporan Penjualan
+
+		***Belum nembak staff id, masih pake id Owner.
+
+
+	- Laporan yang berurusan sama PRINT
+
+
+		***Kasir - Top-Up -- Hasil print bagian kanan kertas masih banyak yang kosong
+
+
+	- Laporan Store
+
+		*** ROUTING
+	
+
+
+#BUG Tonight
+
+	- Laporan Store Owner -- Laporan Penjualan 
+
+		***BUAT DROPDOWNLIST untuk milih karyawan/staff SEBELUM MELAKUKAN PENCARIAN DATA LAPORAN PENJUALAN 
+
+
 
 	 
 
