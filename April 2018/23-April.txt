@@ -3,3 +3,7 @@
 	- Laporan Store Staff - Rudi cs, tulisan tanggal double. Tulis 1 tanggal aja 
 
 	- Laporan Store Staff - print kertas.
+
+		***Customer - customer print item yang di beli ==> DONE
+
+		***
