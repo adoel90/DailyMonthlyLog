@@ -1,5 +1,7 @@
 #BUG Today
 
-	- Laporan Store Staff - Rudi cs, tulisan tanggal double. Tulis 1 tanggal aja 
+	- Laporan Store Staff - Rudi cs, tulisan tanggal double. Tulis 1 tanggal aja ==> DONE
 
-	- Laporan Store Staff - print kertas.
+	- Laporan Store Staff - print kertas. ==> DONE
+
+	- Pengaturan in Panel ==> DONE

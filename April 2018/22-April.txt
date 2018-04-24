@@ -45,7 +45,7 @@
 	
 	- Owner - Laporan Penjualan
 
-		***Belum nembak staff id, masih pake id Owner.
+		***Belum nembak staff id, masih pake id Owner. ==> DONE
 
 
 	- Laporan yang berurusan sama PRINT
@@ -62,7 +62,7 @@
 
 #BUG Tonight
 
-	- Laporan Store Owner -- Laporan Penjualan 
+	- Laporan Store Owner -- Laporan Penjualan ==> DONE
 
 		***BUAT DROPDOWNLIST untuk milih karyawan/staff SEBELUM MELAKUKAN PENCARIAN DATA LAPORAN PENJUALAN 
 
