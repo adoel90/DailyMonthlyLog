@@ -5,3 +5,30 @@
 	- Laporan Store Staff - print kertas. ==> DONE
 
 	- Pengaturan in Panel ==> DONE
+
+		***Customer - customer print item yang di beli ==> DONE
+
+	- ************************************************************************************
+
+
+	- Store Owner - Daftar Produk
+
+		***Button Print yang ada di "Transaksi" di pindahin ke "Daftar Produk"
+
+	- Store Owner - Laporan Menu 
+
+	- Laporan Store - Laporan Menu
+
+		***Ganti "Harga" memjadi "Quantity/ Jumlah Item"
+
+		*** ROUTING
+
+
+
+	-************************************************************************************
+
+	- Driver Software Printer 58mm for Ubuntu
+
+	- Laporan Store Owner - Laporan Penjualan -- Dropdownlist
+
+		***Masih ada nama Owmer !!! Bagus-nya ga ada nama owner, secara dia adala Owner brur!!!

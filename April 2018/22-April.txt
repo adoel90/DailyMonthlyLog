@@ -40,24 +40,18 @@
 		***Parameter API Belum nembak per-store :)
 
 
-	- *********************************************************************************************************
-
-	
-	- Owner - Laporan Penjualan
-
-		***Belum nembak staff id, masih pake id Owner. ==> DONE
-
-
-	- Laporan yang berurusan sama PRINT
+	- Laporan yang berurusan sama PRINT ==> DONE
 
 
 		***Kasir - Top-Up -- Hasil print bagian kanan kertas masih banyak yang kosong
 
-
-	- Laporan Store
-
-		*** ROUTING
 	
+	- Owner - Laporan Penjualan ==> DONE
+
+		***Belum nembak staff id, masih pake id Owner.
+
+
+	- *********************************************************************************************************	
 
 
 #BUG Tonight
