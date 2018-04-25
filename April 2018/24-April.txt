@@ -2,7 +2,7 @@
 
 	- Store Owner - Laporan Menu 
 
-		***Get keseluruhan menu item yang terjual
+		***Get keseluruhan menu item yang terjual ==> DONE
 
 	
 	- Laporan Store - Laporan Menu
@@ -10,3 +10,31 @@
 		***Ganti "Harga" memjadi "Quantity/ Jumlah Item" ==> DONE
 
 		*** ROUTING ==> DONE
+
+
+
+#
+
+
+	- Laporan Penjualan
+
+		***Dropdownlist staff masih belum mengikuti per-store ==> DONE
+
+
+	- Laporan Store Staff 
+
+		***Button "Selanjutnya" ganti "Bayar" Sekarang ==> DONE
+
+		***Tambahin button Print  ==> DONE
+
+
+
+	- Laporan Super Admin 
+
+		***Laporan Total Penjualan ==> DONE
+
+
+	- Fixed "Konfirmasi Pembayaran" Button
+
+	- onclick function to focus input
+
