@@ -1,0 +1,29 @@
+#
+
+	- Explore book Data Structures + review
+
+	- Search on Google tentang Data Structure & Algorithm
+
+		***https://frontendmasters.com/courses/data-structures-algorithms/
+
+		***https://frontendmasters.com
+
+		***http://www.codewars.com/
+
+		***http://blog.benoitvallon.com/data-structures-in-javascript/data-structures-in-javascript/
+
+
+	- Kerjain FORM Triple One Global --> NOT YET, soal-nya ada di Jakarta Barat
+
+
+#
+
+	- Review Indonesia Recycle System
+
+		***/home/rachman/webDevelopmentIndonesiaRecycleSystem
+
+		***/home/rachman/webDevelopmentIndonesiaRecycleSystem2 --> Udah gw delete folder project-nya cause, not aplicable
+
+		***/home/rachman/indonesiaRecycleSystem --> MORE DEEP in "App2"
+
+		***/home/rachman/webDevelopmentExplore/learningAngular2/MEAN-stack-authentication

@@ -1,0 +1,85 @@
+
+# Get store list ==> DONE
+
+	- LIST STORE
+
+	- http://128.199.177.16:3307/store/list?accessToken={accessToken} 
+
+	- http://128.199.177.16:3307/store/list?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwiY2FyZCI6IjAwMTE1MDk2OTU3NDA3MzgiLCJ0eXBlIjoxLCJleHBpcmVkIjoiMjAxOC0wMy0xM1QxMDoxNDoxNi41MTlaIn0.lbPcb1rqt71Ap-6yCyS4FJnaRm8VF-lhY-1OmeM9XAc
+
+
+#  Get store by store_id ==> DONE
+
+	- DETAIL STORE
+
+	- http://128.199.177.16:3307/store/detail?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwiY2FyZCI6IjAwMTE1MDk2OTU3NDA3MzgiLCJ0eXBlIjoxLCJleHBpcmVkIjoiMjAxOC0wMy0xM1QxMDoxNDoxNi41MTlaIn0.lbPcb1rqt71Ap-6yCyS4FJnaRm8VF-lhY-1OmeM9XAc&id=4
+
+
+# Get store menu list
+
+	- LIST MENU STORE
+
+	- http://128.199.177.16:3307/store/menu/list?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwiY2FyZCI6IjAwMTE1MDk2OTU3NDA3MzgiLCJ0eXBlIjoxLCJleHBpcmVkIjoiMjAxOC0wMy0xM1QxMDoxNDoxNi41MTlaIn0.lbPcb1rqt71Ap-6yCyS4FJnaRm8VF-lhY-1OmeM9XAc&store=4
+
+	- param : store (required - integer)
+
+	- param : name (Filter data by menu name)
+
+
+# Create new store menu ==> DONE
+
+	- CREATE MENU STORE
+
+
+	- http://128.199.177.16:3307/store/menu/create?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwiY2FyZCI6IjAwMTE1MDk2OTU3NDA3MzgiLCJ0eXBlIjoxLCJleHBpcmVkIjoiMjAxOC0wMy0xM1QxMDoxNDoxNi41MTlaIn0.lbPcb1rqt71Ap-6yCyS4FJnaRm8VF-lhY-1OmeM9XAc&store=1&name=Keramas Sampo Pink&price=25000&description=Menu Salon Mobil khusus
+
+
+#  Create new store
+
+	- CREATE STORE
+
+	- http://128.199.177.16:3307/store/create?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwiY2FyZCI6IjAwMTE1MDk2OTU3NDA3MzgiLCJ0eXBlIjoxLCJleHBpcmVkIjoiMjAxOC0wMy0xM1QxMDoxNDoxNi41MTlaIn0.lbPcb1rqt71Ap-6yCyS4FJnaRm8VF-lhY-1OmeM9XAc 
+
+	- param : store_name
+
+	- param : category (What ever you want !!! - Service - Cafe - Kantin )
+
+
+ 
+# Update store data ==> DONE
+ 
+
+	- UPDATE STORE
+
+	- http://128.199.177.16:3307/store/update?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwiY2FyZCI6IjAwMTE1MDk2OTU3NDA3MzgiLCJ0eXBlIjoxLCJleHBpcmVkIjoiMjAxOC0wMy0xM1QxMDoxNDoxNi41MTlaIn0.lbPcb1rqt71Ap-6yCyS4FJnaRm8VF-lhY-1OmeM9XAc&id=1&name=Cuci Mobil&category=service
+
+	- param : id
+
+	- param : name
+
+	- category: service
+
+		/*
+		Service.js
+
+				GW MESTI TESTING API :
+					
+					- LIST STORE
+
+					- DETAIL STORE
+					
+					- LIST MENU STORE
+					
+					- CREATE MENU STORE
+
+					- CREATE STORE
+					
+					- UPDATE STORE
+
+
+
+
+
+
+
+		*/

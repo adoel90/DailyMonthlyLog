@@ -8,20 +8,9 @@
 
 		***Customer - customer print item yang di beli ==> DONE
 
-	- ************************************************************************************
-
-
 	- Store Owner - Daftar Produk
 
-		***Button Print yang ada di "Transaksi" di pindahin ke "Daftar Produk"
-
-	- Store Owner - Laporan Menu 
-
-	- Laporan Store - Laporan Menu
-
-		***Ganti "Harga" memjadi "Quantity/ Jumlah Item"
-
-		*** ROUTING
+		***Button Print yang ada di "Transaksi" di pindahin ke "Daftar Produk" ==> DONE
 
 
 

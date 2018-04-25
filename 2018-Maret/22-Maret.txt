@@ -1,0 +1,17 @@
+#
+
+	- CafeMenuList.js === StoreMenuList.js
+
+	- StoreMenuContainer.js === CafeContainer.js
+
+
+#Create new store transaction
+
+	- http://128.199.177.16:3307/store/transaction/create?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwiY2FyZCI6IjAwMTE1MDk2OTU3NDA3MzgiLCJ0eXBlIjoxLCJleHBpcmVkIjoiMjAxOC0wMy0yMlQwMzo0MjoyNC4wNDNaIn0.k18uPUPPqbrrHDU_rbWP-p81lMCbha3-_UErZu67Sn0&menu=[{"id":2},{"quantity":1},{"name":"Nasi Goreng"},{"price": "20000"}]&store=1
+
+
+
+
+#Get store transaction print data
+
+	-  http://128.199.177.16:3307/store/transaction/print?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwiY2FyZCI6IjAwMTE1MDk2OTU3NDA3MzgiLCJ0eXBlIjoxLCJleHBpcmVkIjoiMjAxOC0wMy0yM1QwNjoyNzo1MC42MTdaIn0.k3elXJ0zEnCRpmliL1s2K2ag9QsEQCkun1HIRE0skEQ&store=1

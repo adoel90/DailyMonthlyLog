@@ -1,0 +1,26 @@
+
+
+#
+
+	- Contek "ServiceType" untuk "StoreMenuService"
+
+	- https://www.figma.com/file/OVFnbImQ3HqpMaBEUYPdNbBH/Food-Court
+
+		***Design dari ihsan
+
+
+#Glossary REDUX - Reducing Function
+
+	- https://redux.js.org/glossary#reducer
+
+	- https://redux.js.org/recipes/computing-derived-data
+
+	- https://redux.js.org/basics/usage-with-react
+
+
+#
+
+	- https://reactarmory.com/guides/lifecycle-simulators
+
+
+	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxOCwidV9uYW1lIjoiQW5kcmUgUml6a2lhbmEgV2FuZGlyYSIsInVfdXNlcm5hbWUiOiJhbmRyZXJ3IiwidV9lbWFpbCI6ImFuZHJlci5yaXpraWFuYS53QGdtYWlsLmNvbSIsInVfcGFzc3dvcmQiOiI3YzIyMmZiMjkyN2Q4MjhhZjIyZjU5MjEzNGU4OTMyNDgwNjM3YzBkIiwidWxfaWQiOjMsImNyZWF0ZWRfYXQiOiIyMDE4LTAzLTExVDIzOjMxOjU4LjcxOFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJkZWxldGVkX2F0IjpudWxsLCJ1bF9uYW1lIjoiS2FzaXIifQ.Rh2tPJSdP-4ORIJe0fwliYhR0rF4NKpF7dHrlEfiTEk

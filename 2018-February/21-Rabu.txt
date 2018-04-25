@@ -1,0 +1,55 @@
+
+
+#Google ?
+
+	- tutorial redux from scratch
+
+	- https://appdividend.com/2017/08/23/redux-tutorial-example-scratch/
+
+
+#Google ?
+
+	- https://material-ui-next.com
+
+
+# Podomoro
+
+	- Material UI Next
+
+		***<Button /> --> DONE
+
+		***<Typography /> --> DONE
+
+		***<Paper /> --> DONE
+
+		***<Grid /> --> DONE
+
+		***<Layout />
+
+	- Nampilin list consume API Carwars using Postman
+
+	- Create Redux To Do List App 
+
+
+
+#Google ?
+	
+	- How to consume api using react
+
+	- https://blog.hellojs.org/fetching-api-data-with-react-js-460fe8bbf8f2
+
+
+#Google ?
+
+	- axios in react
+
+	- https://alligator.io/react/axios-react/ --> Tempurin tgl 22 September insya Allah
+
+	- 
+
+
+#Carwash API
+
+	- http://159.89.197.57:3307/api-docs
+
+	

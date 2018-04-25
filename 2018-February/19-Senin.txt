@@ -1,0 +1,58 @@
+#
+
+	- Explore editing React.JS --> DONE
+
+	- Explore editing React.JS Part-2 --> 
+
+
+
+# Password Wifi 
+
+	- mvpworld123
+
+
+#
+
+	- https://Adoel_Rachman@bitbucket.org/BuzzBuddies/805-carwash.git
+
+
+#Password Bitbucket
+
+	- INDONESI4WAW
+
+
+#Gimana Login ke Web Aplikasi "805 Carwash" ?
+	
+	- http://localhost:3000/admin
+	- admin
+	- 12345678
+
+
+#Gimana akses  Api "805 Carwash" ?
+
+	http://159.89.197.57:3307/api-docs
+
+
+#Search word inside file in ubuntu
+	
+	- Deserunt adipisicing nulla pariatur do ullamco eiusmod qui Lorem mollit labore ea.
+
+
+#http://localhost:3000/admin/access/detail?accessToken={accessToken} 
+
+
+#
+
+	- Implement routing in React --> 
+
+	- Change to git branch david --> 
+
+	- 
+
+#Gimana cara pull in project "805-carwash-old" ?
+
+	- git pull origin david
+
+
+
+	

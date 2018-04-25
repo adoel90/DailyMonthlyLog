@@ -1,0 +1,12 @@
+#
+
+	- Store Owner - Laporan Menu 
+
+		***Get keseluruhan menu item yang terjual
+
+	
+	- Laporan Store - Laporan Menu
+
+		***Ganti "Harga" memjadi "Quantity/ Jumlah Item" ==> DONE
+
+		*** ROUTING ==> DONE

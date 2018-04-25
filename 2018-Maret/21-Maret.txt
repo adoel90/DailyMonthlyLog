@@ -1,0 +1,5 @@
+#Get report store owner
+
+	- http://128.199.177.16:3307/store/report?accessToken={accessToken} 
+
+	- http://128.199.177.16:3307/store/report?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MywibmFtZSI6IkFuZHJlIFJpemtpYW5hIFdhbmRpcmEiLCJ1c2VybmFtZSI6ImFuZHJlcnciLCJlbWFpbCI6ImFuZHJlci5yaXpraWFuYS53QGdtYWlsLmNvbSIsInZlbmRvciI6MjksImFjY2VzcyI6eyJjb2RlIjowLCJuYW1lIjoiQWRtaW4ifSwic3RhdHVzIjp0cnVlfQ.9tgN_WWjZ-uUJOLvH-Enu5muz_kUDFgV58WhcRjUv58&type=&start_date=2018-12-01&end_date=2018-01-30&store=1

@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+#Component "Cashier" --> Buat Isi Saldo or top up
+
+	- CashierTopUp.js
+
+	- CashierTopUpForm.js
+
+	- CashierTopUpConfirmation.js
+
+
+#Container "Cashier"
+
+	- CashierContainer.js
+
+	- CashierTopUpContainer.js
+
+	- CashierRefundContainer.js
+
+	- CashierNewCardContainer.js
+
+
+
+#
+
+			let dialogData = {
+			type: 'confirm',
+			title: 'Perhatian!',
+			message: (
+				<p>
+					Konfirmasi terlebih dahulu informasi berikut sebelum melanjutkan.<br/>
+					Jumlah saldo yang akan diisi adalah
+					{/* <span className="fw-semibold clr-primary">{' '}<Currency value={requiredData.balance} />{' '}</span>
+					dengan metode pembayaran <span className="fw-semibold">{paymentMethodName}</span>.<br/> */}
+					
+				</p>
+			),
+			onConfirm: () => {
+				// dispatch(memberTopup(requiredData, authenticatedMember.accessToken))
+			},
+			confirmText: 'Selesai',
+			onClose: () => closeDialog(),
+			closeText: 'Batal'
+		}

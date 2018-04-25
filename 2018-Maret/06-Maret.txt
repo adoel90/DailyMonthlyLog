@@ -1,0 +1,83 @@
+
+
+
+#Carwash API Update vendor menu data
+	
+	- /vendor/menu/update?accessToken={accessToken} 
+
+	- 
+
+
+#Carwash API Update vendor employee
+
+	- /vendor/employee/update?accessToken={accessToken} 
+
+	- http://128.199.177.16:3307/vendor/employee/update?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MywibmFtZSI6IkFuZHJlIFJpemtpYW5hIFdhbmRpcmEiLCJ1c2VybmFtZSI6ImFuZHJlcnciLCJlbWFpbCI6ImFuZHJlci5yaXpraWFuYS53QGdtYWlsLmNvbSIsInZlbmRvciI6MjksImFjY2VzcyI6eyJjb2RlIjowLCJuYW1lIjoiQWRtaW4ifSwic3RhdHVzIjp0cnVlfQ.9tgN_WWjZ-uUJOLvH-Enu5muz_kUDFgV58WhcRjUv58
+
+
+
+#Carwash API Authenticate member using card id
+
+	-  /member/authenticate Authenticate member using card id
+
+	- http://128.199.177.16:3307/member/authenticate?card=0011509695740738
+
+	- eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwiY2FyZCI6IjAwMTE1MDk2OTU3NDA3MzgiLCJ0eXBlIjoxLCJleHBpcmVkIjoiMjAxOC0wMy0wN1QwOTo0OToyOC43NTVaIn0.SceekP33vVLGvWCJ5pyy1mWFapOUPbob6OVHPyrddEc
+
+#
+
+	- Nama Vendor di ganti menjadi --> Store
+
+	- Ubah "Daftar Menu" menjadi --> "Daftar Produk"
+
+
+
+#
+
+    const data = [
+         
+        {name: 'JANUARI', Rp: 4000, pv: 2400, amt: 2400},
+        {name: 'FEBRUARI', Rp: 3000, pv: 1398, amt: 2210},
+        {name: 'MARET', Rp: 2000, pv: 9800, amt: 2290},
+        {name: 'APRIL', Rp: 2780, pv: 3908, amt: 2000},
+        {name: 'MEI', Rp: 1890, pv: 4800, amt: 2181},
+        {name: 'JUNI', Rp: 2390, pv: 3800, amt: 2500},
+        {name: 'JULI', Rp: 3490, pv: 4300, amt: 2100},
+        {name: 'AGUSTUS', Rp: 3490, pv: 4300, amt: 2100},
+        {name: 'SEPTEMBER', Rp: 3490, pv: 4300, amt: 2100},
+        {name: 'OKTOBER', Rp: 3490, pv: 4300, amt: 2100},
+        {name: 'NOVEMBER', Rp: 3490, pv: 4300, amt: 2100},
+        {name: 'DESEMBER', Rp: 3490, pv: 4300, amt: 2100}
+
+    ];
+
+    const dataDummy = [
+
+        { month: "May 2017", transaction: 0, pv: 24},
+        { month: "Jun 2017", transaction: 3, pv: 13},
+        { month: "Jul 2017", transaction: 5, pv: 98},
+        { month: "Aug 2017", transaction: 0, pv: 39},
+        { month: "Sep 2017", transaction: 0, pv: 48},
+        { month: "Oct 2017", transaction: 5, pv: 38},
+        { month: "Nov 2017", transaction: 0, pv: 43},
+        { month: "Dec 2017", transaction: 7, pv: 43},
+        { month: "Jan 2018", transaction: 0, pv: 43},
+        { month: "Feb 2018", transaction: 8, pv: 43},
+        { month: "Mar 2018", transaction: 0, pv: 43},
+        { month: "Apr 2018", transaction: 9, pv: 43}
+    ]
+
+
+
+# Google
+
+	- how to change port in react
+
+# What I Do
+
+	- Ganti yang berbau "Vendor" to "Store"
+
+	- Ganti yang berbau "Inggris" to "Indonesia"
+
+
+

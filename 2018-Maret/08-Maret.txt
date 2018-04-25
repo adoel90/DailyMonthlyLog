@@ -1,0 +1,92 @@
+#Bikin Layout untuk tampilan Customer saat berhasil Login 
+
+	- Fokus di "CustomerContainer.js"
+
+	- 
+
+#Update Manajemen Karyawan kemungkinan solve by langsung jalanin via web aplikasi (Karena get vendor langsung using LocalStorage)
+
+
+#Otomatis list ter-update setelah MELAKUKAN UPDATE.
+
+	- Gunakan componentDidUpdate()
+
+
+
+
+
+/* **************************************************************************************************** */
+
+
+/*Customer Page */
+
+#
+
+	- _menu.scss
+
+		.menu__list-customer {
+		        
+		    // position: relative; 
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		    background-color: #333333;
+		    display: flex;
+		}
+
+#
+
+	- MenuList.js
+
+	    const tesLi = {
+	        'display':'flex',
+	        'float': 'left'
+	    }
+
+	    {/* { category ? <li style={tesLi}> {category} </li> : null } */}
+
+
+#
+
+	- Fokus tambahin untuk "LayoutCustomer" ==> DONE 
+		
+		***SidebarCustomer --> '../../../layouts/Layout'
+
+		***MenuListCustomer --> from '../../../components/Menu'
+		***MenuLinkCustomer --> from '../../../components/Menu'
+		***MenuItemCustomer --> from '../../../components/Menu'
+
+		***
+		***
+
+		***PageCustomer --> '../../../layouts/Layout'
+		***ContentCustomer --> '../../../layouts/Layout'
+
+
+
+	- Fokus tambahin untuk scss "Page Customer"
+
+		***SidebarCustomer
+
+			^^^ '/styles/layouts/_layout-customer.scss'
+
+		***MenuListCustomer
+
+			^^^ '/styles/components/_menu-customer.scss'
+
+		***MenuLinkCustomer
+
+			^^^class="menu__link-customer"
+
+		***
+
+		***ContentCustomer
+
+			^^^class=" "
+
+
+
+#
+
+	- sidenav__item

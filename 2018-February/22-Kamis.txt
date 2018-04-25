@@ -1,0 +1,41 @@
+#
+
+	Feature Get list Json Placeholder
+
+	Scenario Get list Json Placeholder berhasil 
+
+		Given, url in root '/'
+
+		When, akses root
+
+		Then, muncul list of Json Placeholder 
+
+
+	Scenario Get list Json Placeholder gagal 
+
+		Given, url in root '/'
+
+		When, akses root
+
+		Then, tampil text "FAILED TO GET LIST OF USER  JSON PLACEHOLDER" 
+
+
+
+#Google ?
+
+	- https://github.com/reactjs/redux/tree/master/examples
+
+	- https://scotch.io/@bellemeee/consuming-web-apis-in-react-with-redux-async-requests-with-redux
+
+
+#Google ?
+
+	- 
+
+
+#Api to create user :
+
+
+	- http://159.89.197.57:3307/api-docs
+
+	- Create new users

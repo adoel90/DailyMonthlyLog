@@ -1,0 +1,27 @@
+# Create new store transaction
+
+	-
+
+	- http://128.199.177.16:3307/store/transaction/create?accessToken={accessToken} 
+
+	- http://128.199.177.16:3307/store/transaction/create?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwiY2FyZCI6IjAwMTE1MDk2OTU3NDA3MzgiLCJ0eXBlIjoxLCJleHBpcmVkIjoiMjAxOC0wMy0xM1QxMDoxNDoxNi41MTlaIn0.lbPcb1rqt71Ap-6yCyS4FJnaRm8VF-lhY-1OmeM9XAc
+
+	- param : menu (required - Array - Transaction Menu, {"id": <menu ID>, 'quantity'})
+
+	- param : name (Filter data by menu name)
+
+
+
+# Get Menu Store List in "Vendor/Store" 
+
+	http://128.199.177.16:3307/store/list?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwiY2FyZCI6IjAwMTE1MDk2OTU3NDA3MzgiLCJ0eXBlIjoxLCJleHBpcmVkIjoiMjAxOC0wMy0xM1QxMDoxNDoxNi41MTlaIn0.lbPcb1rqt71Ap-6yCyS4FJnaRm8VF-lhY-1OmeM9XAc&id=38
+
+#
+
+   // console.log(dataStoreArrayObject);
+        // console.log(this.props);
+        
+        // const data = [
+        //     { id :1 },
+        //     { id :2 }
+        // ]

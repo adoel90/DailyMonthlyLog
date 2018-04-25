@@ -1,0 +1,16 @@
+#
+
+		<Button
+			type="button"
+			theme={menu.selected ? 'secondary' : 'primary'}
+			buttonFull
+			onClick={() => handleSelectMenu(menu)}>
+				{/* <small className={`tt-uppercase fw-bold ls-base ${menu.selected ? 'clr-dark' : 'clr-light'}`}>{menu.selected ? 'Terpilih' : 'Pilih'}</small> */}
+				<small>{menu.selected ? 'Terpilih' : 'Pilih'}</small>
+
+		</Button>
+
+
+#
+	
+	- Review "Struktur Folder Views" Carwash-805

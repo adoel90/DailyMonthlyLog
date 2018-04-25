@@ -1,0 +1,56 @@
+#
+	Be sure to make issues (or shout at me) for broken things:
+	
+  		- https://github.com/allanhortle/JSX/issues
+
+
+#Gimana cara "push" project yang lo udah coding ?
+
+	- git push origin adoel
+
+
+#Gimana cara-nya pull project "v2.0" ?
+
+	- git pull origin v2.0
+
+
+#Gimana cara-nya merge project "v2.0" ?
+	
+	- git merge v2.0
+
+
+#accessToken "admin of 805-carwash" ?
+
+
+#
+
+	- http://159.89.197.57:3307
+
+#Get access detail
+
+	- http://159.89.197.57:3307/access/detail?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxLCJ1X25hbWUiOiJBZG1pbiIsInVfdXNlcm5hbWUiOiJhZG1pbiIsInVfZW1haWwiOiJhZG1pbkBlbWFpbC5jb20iLCJ1X3Bhc3N3b3JkIjoiN2MyMjJmYjI5MjdkODI4YWYyMmY1OTIxMzRlODkzMjQ4MDYzN2MwZCIsInVsX2lkIjoxLCJjcmVhdGVkX2F0IjoiMjAxNy0xMC0xOFQwNTo0MzozNy43NTBaIiwidXBkYXRlZF9hdCI6IjIwMTctMTItMTlUMTc6NDQ6MzcuMDAwWiIsImRlbGV0ZWRfYXQiOm51bGwsImNmX2lkIjowLCJ1bF9uYW1lIjoiQWRtaW5pc3RyYXRvciJ9.T9kcLjKS-0vChBxnVr68y8LPwsl-Y2-9BnFo4EJyioo
+
+
+#Get members list --> OKE
+
+	-  http://159.89.197.57:3307/member/list?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxLCJ1X25hbWUiOiJBZG1pbiIsInVfdXNlcm5hbWUiOiJhZG1pbiIsInVfZW1haWwiOiJhZG1pbkBlbWFpbC5jb20iLCJ1X3Bhc3N3b3JkIjoiN2MyMjJmYjI5MjdkODI4YWYyMmY1OTIxMzRlODkzMjQ4MDYzN2MwZCIsInVsX2lkIjoxLCJjcmVhdGVkX2F0IjoiMjAxNy0xMC0xOFQwNTo0MzozNy43NTBaIiwidXBkYXRlZF9hdCI6IjIwMTctMTItMTlUMTc6NDQ6MzcuMDAwWiIsImRlbGV0ZWRfYXQiOm51bGwsImNmX2lkIjowLCJ1bF9uYW1lIjoiQWRtaW5pc3RyYXRvciJ9.T9kcLjKS-0vChBxnVr68y8LPwsl-Y2-9BnFo4EJyioo
+
+
+#Get list of card type
+
+	- http://159.89.197.57:3307/card/type/list?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxLCJ1X25hbWUiOiJBZG1pbiIsInVfdXNlcm5hbWUiOiJhZG1pbiIsInVfZW1haWwiOiJhZG1pbkBlbWFpbC5jb20iLCJ1X3Bhc3N3b3JkIjoiN2MyMjJmYjI5MjdkODI4YWYyMmY1OTIxMzRlODkzMjQ4MDYzN2MwZCIsInVsX2lkIjoxLCJjcmVhdGVkX2F0IjoiMjAxNy0xMC0xOFQwNTo0MzozNy43NTBaIiwidXBkYXRlZF9hdCI6IjIwMTctMTItMTlUMTc6NDQ6MzcuMDAwWiIsImRlbGV0ZWRfYXQiOm51bGwsImNmX2lkIjowLCJ1bF9uYW1lIjoiQWRtaW5pc3RyYXRvciJ9.T9kcLjKS-0vChBxnVr68y8LPwsl-Y2-9BnFo4EJyioo
+
+
+
+
+
+
+
+#how to use sass in react ?
+
+	- Sass in React --> 
+
+		***https://medium.com/@kswanie21/css-modules-sass-in-create-react-app-37c3152de9
+		
+		***https://github.com/swanie21/sass-css-modules-webpack
+

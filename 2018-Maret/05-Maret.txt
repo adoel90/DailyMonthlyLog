@@ -1,0 +1,33 @@
+
+#SBH
+	
+	- http://128.199.234.141:7100/login
+
+
+# http://localhost:3000/customer
+
+	- 0011509695740738
+
+
+#Guide from 805-carwash-david about SERVICE
+
+	- ../src/components/Landing.js
+
+	- ../src/containers/LandingContainer.js
+
+	- ../src/containers/CustomerContainer.js
+
+
+#Guide about UPDATE
+
+	-  ../src/containers/SettingsUserContainer.js
+
+	- ../src/components/SettingsUpdateUser.js
+
+
+
+#Google
+
+	- https://www.thoughtworks.com/insights/blog/specification-example
+
+		***Specification By Example

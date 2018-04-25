@@ -1,0 +1,47 @@
+#
+	- Ada Bug di "vendor.action.js" & "vendor.user.reducer" ==> ACTION in console ngga mendapatkan data dari reducer, tapi success
+
+	- Ada Bug di "Isi Ulang Saldo" Ketika tampil Modal dan ingin klik Button "Print & Lanjutkan" tidak muncul notif berhasil 
+
+
+
+
+# member reducer 
+
+
+	- item.isBalanceChanged
+
+
+# User untuk refund
+
+	- 0011508499496930
+
+	- 0011508500762323
+
+
+#Ganti penama-an path 
+
+	Vendor --> AdminStores
+
+	StoreCashier --> AdminStoreCashier
+
+
+#Get tier list
+
+	- http://localhost:3000/tier/list?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTE4LCJjYXJkIjoiMDE1MTUxNDIyMDU1NzI5NyIsInR5cGUiOjE1LCJleHBpcmVkIjoiMjAxOC0wMy0zMVQxMzoyNjowNy41MDVaIn0.33kskNH30kmUMGlnhMXS53GcF1124Z1CUzNiFm2Pgno
+
+
+#User Taxi Online
+
+	0151514220557297
+
+
+# FEATURE PROMO BELOM
+
+
+#Password Carwash DAVID - Feature Customer
+
+	- http://localhost:3000/customer
+
+	- 0011509695740738
+ 

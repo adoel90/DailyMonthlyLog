@@ -1,0 +1,12 @@
+#
+
+	/*
+		Jadi action "getServiceTypes itu sama dengan "getStoreList"
+
+		Jadi "ServiceContainer" itu sama dengan "StoreContainer"
+
+	*/
+
+
+
+	

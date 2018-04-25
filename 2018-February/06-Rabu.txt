@@ -1,0 +1,20 @@
+#
+
+	- Explore Blockly Javascript
+
+		***Create block (drug play button to OPEN Web Application.
+
+	- Create Modul Blockly for kids to empower young people to think creatively, reason systematically, and work collaboratively
+
+	- Offering to school Scratch Blocks - https://scratch.mit.edu/developers
+
+
+#
+
+	- Homepage that contains quick links to the categories (e.g: People, Planets,Vehicles, etc.)
+
+	- Category Page that lists some items of the selected category from Homepage
+
+	- Detail Page that contains complete data of the selected item from Category Page. Provide a ‘back to home’ button here to quickly navigate back to Homepage.
+
+

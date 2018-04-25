@@ -1,0 +1,102 @@
+#
+	
+	- Explore React JS --> ON PROGRESS
+
+
+		***Deeply swim in "Readme__AddReactToANewApplication.md" --> DONE
+
+		***Pasang Highlighter JSX in Sublime-3 --> DONE
+
+		***Use webpack (bundle.js) --> DONE
+
+			>>>https://medium.com/react-id/memahami-webpack-tidak-sesulit-memahami-wanita-part-i-d185219f6559
+
+			>>>https://github.com/alfrcr/learn-webpack/tree/build-webpack
+
+
+
+
+		***Swim in "https://survivejs.com/react/getting-started/implementing-notes/" --> ONPROGRESS
+
+			>>>Deleting Feature in Kanban App 
+
+		***Swim in "https://reactjs.org/docs/forms.html" --> ONPROGRESS
+
+
+		***https://developers.google.com/web/tools/chrome-devtools/console/console-reference
+		
+		***https://eslint.org
+
+		***Use sequalize 
+
+		***Use lazy loading
+
+		*** dll.
+
+S
+
+	- Explore Postgre SQL 
+
+		***Liat2 architecture of node-postgres-todo --> DONE
+
+
+	- Create API Indonesia Recycle System --> Need review code 
+	
+	- Get started Typescript
+
+	- Explore Login MEAN Stack
+
+
+
+
+
+#Link-nya apa to explore node.js & React.js
+
+	- https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app
+
+
+#Link-nya di mana untuk project "judo-heroes"
+	
+	- https://github.com/lmammino/judo-heroes
+
+
+#Link-nya di mana to "create-new-app" ???
+
+	- https://reactjs.org/docs/add-react-to-a-new-app.html
+
+
+
+#Link mana yang pas utk di rehearse setiap detil bacaan-nya ?
+
+	- https://github.com/facebook/react/
+
+#Apa url link untuk install Sublime versi-3 ?
+
+	- https://www.sublimetext.com/docs/3/linux_repositories.html#apt
+
+
+#Gimana cara install Sublime-3 in Ubuntu ?
+
+	- Install the GPG key:
+
+		***"wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -"
+	
+
+	- Ensure apt is set up to work with https sources:
+
+		***sudo apt-get install apt-transport-https
+
+
+	- Stable
+		***echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+
+	- Dev
+		***echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+	
+	- Update apt sources and install Sublime Text
+
+		sudo apt-get update
+		sudo apt-get install sublime-text
+
+
+

@@ -1,0 +1,22 @@
+#
+
+	- Bikin "_header_customer.scss"
+
+
+# Get member detail data {Parameter--> Member ID}
+
+	- http://128.199.177.16:3307/member/detail?accessToken={accessToken} 
+
+	-  http://128.199.177.16:3307/member/detail?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NiwiY2FyZCI6IjAwMTE1MDk2OTU3NDA3MzgiLCJ0eXBlIjoxLCJleHBpcmVkIjoiMjAxOC0wMy0wOVQxMjo1Nzo1OC44MzhaIn0.YgNrjFZqlRx2vhXKOcuPwlQrl-P3_Uemodrj_qi5384&id=6
+
+#
+
+	- getMemberDetail
+
+		*** Masih gw pantek, next-nya mesti gw dinamis-in kaya function di vendor.action.js
+
+
+
+#Google 
+
+	- https://reacttraining.com/react-router/web/guides/philosophy
