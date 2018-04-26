@@ -1,0 +1,7 @@
+#
+
+	- SuperAdmin - Laporan Member - Button Histori - Kolom Transaksi
+
+		***Value dari kolom transaksi adalah "store", bagus-nya nama toko yang di mana customer membeli
+
+	- 

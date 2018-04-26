@@ -12,10 +12,6 @@
 		*** ROUTING ==> DONE
 
 
-
-#
-
-
 	- Laporan Penjualan
 
 		***Dropdownlist staff masih belum mengikuti per-store ==> DONE
@@ -28,13 +24,24 @@
 		***Tambahin button Print  ==> DONE
 
 
-
 	- Laporan Super Admin 
 
 		***Laporan Total Penjualan ==> DONE
 
 
+
+#
+
+	- Superadmin - Laporan 	Total Penjualan 
+
+		***Add Search 
+
+			>>> AdminReportSellingTotalView.js --> IKUTIN  code of AdminMemberView.js
+
+
+
 	- Fixed "Konfirmasi Pembayaran" Button
 
+	
 	- onclick function to focus input
 
