@@ -29,21 +29,26 @@
 		***Laporan Total Penjualan ==> DONE
 
 
-
-#
-
 	- Superadmin - Laporan 	Total Penjualan 
 
 		***Add Search 
 
-			>>> AdminReportSellingTotalView.js --> IKUTIN  code of AdminMemberView.js
+			>>> AdminReportSellingTotalView.js --> IKUTIN  code of AdminMemberView.js ==> DONE
 
 
+	- Laporan Store Staff 
 
-	- Fixed "Konfirmasi Pembayaran" Button
+		***Fixed "Konfirmasi Pembayaran" Button ==> DONE
 
-	- onclick function to focus input
+
+#
+
+	- onclick function to focus input/ TURN OFF EVENT CLICK 
 
 	- Store - Daftar Produk - Button Print
 
 		*** Kurang elok posisi Button Print
+
+	- Dashboard SuperAdmin ?
+
+	- Styling Tab ?
