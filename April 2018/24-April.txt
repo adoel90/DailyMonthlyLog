@@ -42,6 +42,8 @@
 
 	- Fixed "Konfirmasi Pembayaran" Button
 
-	
 	- onclick function to focus input
 
+	- Store - Daftar Produk - Button Print
+
+		*** Kurang elok posisi Button Print
