@@ -1,8 +1,11 @@
 
-#Project Notaries : React + CK Editor
-
-	- https://github.com/codeslayer1/react-ckeditor
 
 
-#Project Notaris use node v7.10.1 + npm v4.2.0
+#
 
+	- https://github.com/adoel90/ckeditor.git
+
+
+#
+
+	- https://github.com/adoel90/notaris.git
