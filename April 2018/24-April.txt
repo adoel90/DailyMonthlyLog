@@ -41,6 +41,10 @@
 		***Fixed "Konfirmasi Pembayaran" Button ==> DONE
 
 
+	- Super Admin - Laporan Member - kolom "Type Member" ==> DONE
+
+
+
 #
 
 	- onclick function to focus input/ TURN OFF EVENT CLICK 
@@ -52,3 +56,12 @@
 	- Dashboard SuperAdmin ?
 
 	- Styling Tab ?
+
+	- isCurrency ?
+
+	- Refund BUG !!!
+
+		***TAMBAHIN MODAL BERHASIL & REVIEW CODE
+
+
+# REVIEW FUNCTION CODE IN INTERFACE OF WEB APPLICATION
