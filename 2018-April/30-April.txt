@@ -1,0 +1,32 @@
+
+
+
+
+#
+
+	Feature CK Editor
+
+	Scenario: Tampil icon to upload image ==> DONE
+
+		*** https://docs.ckeditor.com/ckeditor5/latest/framework/guides/quick-start.html
+
+
+	Scenario: Tampil White Page
+
+		***https://docs.ckeditor.com/ckeditor5/latest/framework/guides/ui/document-editor.html
+
+
+#WHAT I DO
+
+	- Search in Google : "ckeditor and react"
+
+
+
+#ALLOYEDITOR
+
+	- Build on top "CK Editor"
+
+	- https://alloyeditor.com
+
+	- 
+	
