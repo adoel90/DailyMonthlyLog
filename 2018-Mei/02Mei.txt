@@ -35,6 +35,8 @@
 
 	- notaris-addins ==> have pushed in Github, use angular
 
+		***https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/project-quickstart#next-steps
+
 	- project-addin
 
 	- project-addin-without-typescript
