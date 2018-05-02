@@ -40,3 +40,9 @@
 	- project-addin
 
 	- project-addin-without-typescript
+
+
+
+#Link Contoh E-Notaris
+
+	- https://youtu.be/hWopbRx-flo?list=PLld2BhFVhWO9yEshoENpaMssynwAXF-gJ
