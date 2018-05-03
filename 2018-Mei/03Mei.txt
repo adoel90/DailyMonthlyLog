@@ -1,0 +1,97 @@
+#
+
+	- Inget dul bikin Dokumentasi Car-wash for Developer !!!
+
+
+
+
+# WHAT I DO 
+
+	- Review interface & flow business process Car-wash805 
+
+		***Staff Store
+
+		***Kasir
+
+		***Owner
+
+			>>>Owner - nadhiem
+
+		***SuperAdmin
+
+			>>> Di Daftar Member - width 100% terlalu lebar
+
+
+
+#
+
+	-   &::placeholder {
+	        color: gray(300);
+	    }
+
+
+#WHAT I DO 
+
+	- You can draw your own material design
+
+		***https://material.io/color/#!/?view.left=0&view.right=1&primary.color=1635bc
+
+
+
+
+#WHAT I DO : replace dash to replace empty space
+
+var str='Cats Purr !   '
+document.write(str.replace(/\s+$/g,'').replace(/\s+/g, ' ')+' -----------------------------------------------------');
+
+
+
+#WHAT I DO : Menyematkan google doc online in my web app
+
+	<iframe src="https://docs.google.com/document/d/e/2PACX-1vQHWCFYzbyVNhdBxlaVs4x_yBPEiR-fwfrrkp8vl6joNMuiX73qDNQCz0YsPrY5Ttz8G3ybTgv2jAYS/pub?embedded=true"></iframe>
+
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vQHWCFYzbyVNhdBxlaVs4x_yBPEiR-fwfrrkp8vl6joNMuiX73qDNQCz0YsPrY5Ttz8G3ybTgv2jAYS/pub?embedded=true"></iframe>
+
+
+
+#WHAT I DO : how to put word online in my web app
+
+	-  https://stackoverflow.com/questions/38040265/is-there-a-way-to-integrate-the-word-online-application-as-a-viewer-in-my-own-we
+
+	- https://github.com/Microsoft/Office-Online-Test-Tools-and-Documentation/blob/master/docs/online/src/index.rst
+
+
+#WHAT I DO : node.js + word online
+
+	- https://github.com/ONLYOFFICE
+
+
+#WHAT I DO : I think AlloyEditor [https://alloyeditor.com/] better
+
+	
+
+#FIRE
+
+	- https://docs.ckeditor.com/ckeditor5/latest/framework/guides/ui/document-editor.html
+
+
+#index.html
+
+	<!DOCTYPE html>
+	<html>
+	    <head>
+	        <meta charset="utf-8">
+	        <title>Document Editor</title>
+	    </head>
+
+	    <div id="editor">
+	        <p>Ajibun</p>
+
+	    <figure class="image">
+	        <img src="https://via.placeholder.com/1000x300/02c7cd/fff?text=Placeholder%20image" alt="CKEditor 5 rocks!">
+	    </figure>
+	    </div>
+
+	    <script src="dist/bundle.js"></script>
+	</html>
+
