@@ -43,7 +43,13 @@
 
 	- Super Admin - Laporan Member - kolom "Type Member" ==> DONE
 
+	- Styling Tab ==> DONE
 
+	- isCurrency ==> DONE
+
+	- Refund BUG !!! ==> DONE
+
+		***TAMBAHIN MODAL BERHASIL & REVIEW CODE
 
 #
 
@@ -55,13 +61,6 @@
 
 	- Dashboard SuperAdmin ?
 
-	- Styling Tab ?
-
-	- isCurrency ?
-
-	- Refund BUG !!!
-
-		***TAMBAHIN MODAL BERHASIL & REVIEW CODE
 
 
 # REVIEW FUNCTION CODE IN INTERFACE OF WEB APPLICATION
