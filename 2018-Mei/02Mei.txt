@@ -1,0 +1,48 @@
+
+
+
+
+#RESEARCHING :
+
+	- CK Editor
+
+	- Alloy Editor
+
+	- Office.js + Microsoft Add-in/ Plugin
+
+		***Requirement Microsoft Word 2016
+
+		***Mesti pake Windows
+
+		***https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/word-quickstart?tabs=visual-studio
+
+
+	- Node.js & Office.js
+
+		***https://github.com/OfficeDev/Office-Add-in-NodeJS-SSO
+
+
+	- Project Add-ins
+
+		***https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/project-quickstart#start-the-dev-server
+
+		***https://www.office.com/?auth=1
+
+
+
+
+#	WHAT I DO :
+
+	- notaris-addins ==> have pushed in Github, use angular
+
+		***https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/project-quickstart#next-steps
+
+	- project-addin
+
+	- project-addin-without-typescript
+
+
+
+#Link Contoh E-Notaris
+
+	- https://youtu.be/hWopbRx-flo?list=PLld2BhFVhWO9yEshoENpaMssynwAXF-gJ
