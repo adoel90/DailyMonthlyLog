@@ -12,7 +12,11 @@
 
 	- https://github.com/adoel90/notaris-ang.git
 
+#Notaris Angular App v2
 
+	- Node node v5.9.0
+
+	- npm 3.7.3
 
 #
 
