@@ -50,8 +50,6 @@ document.write(str.replace(/\s+$/g,'').replace(/\s+/g, ' ')+' ------------------
 
 	<iframe src="https://docs.google.com/document/d/e/2PACX-1vQHWCFYzbyVNhdBxlaVs4x_yBPEiR-fwfrrkp8vl6joNMuiX73qDNQCz0YsPrY5Ttz8G3ybTgv2jAYS/pub?embedded=true"></iframe>
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vQHWCFYzbyVNhdBxlaVs4x_yBPEiR-fwfrrkp8vl6joNMuiX73qDNQCz0YsPrY5Ttz8G3ybTgv2jAYS/pub?embedded=true"></iframe>
-
 
 
 #WHAT I DO : how to put word online in my web app

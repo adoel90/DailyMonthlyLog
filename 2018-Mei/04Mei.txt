@@ -1,0 +1,59 @@
+#Angular v1 and webpack
+
+	- https://github.com/preboot/angularjs-webpack.git
+
+	- Use Node v4.1.2 + NPM 2.14.x
+
+
+
+#Notaris Angular App
+
+	- Use Node v4.1.2 + NPM 2.14.x
+
+	- https://github.com/adoel90/notaris-ang.git
+
+
+
+#
+
+	- angular and ckeditor ==> 
+
+		***Rencana-nya pengen gw kombinasi-in sama "angular-js-webpack", abis itu gw pengen implementasi-in ke "notaris-ang"
+
+	- https://codepen.io/mckoon/pen/XdzVOe ==> Ini codingan CK Editor yang udah langsung muncul Editor-nya using Angular v1.6
+
+	- https://github.com/lemonde/angular-ckeditor ==> Ini Link Github-nya
+
+
+
+#
+
+	const notarisWebApp = angular.module('notarisApp', ['ngRoute'])
+	  .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
+	    $locationProvider.hashPrefix('');
+	    $locationProvider.html5Mode({
+	      enabled:true
+	    });
+	    
+	    $routeProvider
+	      .when('/homepage', {
+	        templateUrl : 'home-page/home.page.view.html',
+	        controller: 'homePageController'
+	      })		
+	      .otherwise({
+	        redirectTo: '/page-not-found'
+	      });
+	  }])
+
+
+#Angular + Redux
+
+	- Google : "redux and angular 1"
+
+	- https://blog.grossman.io/angular-1-using-redux-architecture/
+
+
+
+
+
+
