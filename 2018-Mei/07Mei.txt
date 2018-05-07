@@ -1,0 +1,85 @@
+#WHAT I DO
+
+	- angular1 and webpack 3
+
+	- https://carlosrymer.com/configuring-webpack-3-for-an-angular-1-x-app-fa90a69f1de0
+
+
+# Project Notaris 
+
+	- https://trello.com/invite/accept-board
+
+
+
+#WHAT I DO : replace dash to replace empty space
+
+    var str='Cats Purr !   '
+    document.write(str.replace(/\s+$/g,'').replace(/\s+/g, ' ')+' -----------------------------------------------------');
+
+
+
+#
+
+	- "webpack": "2.1.0-beta.20"
+
+
+
+#Configuring Webpack 3 for An Angular 1.x App
+
+	- https://carlosrymer.com/configuring-webpack-3-for-an-angular-1-x-app-fa90a69f1de0
+
+	- https://github.com/ckeditor/ckeditor5/issues/139#issuecomment-276876222
+
+
+
+	"@ckeditor/ckeditor5-autoformat": "^10.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^10.0.0",
+    "@ckeditor/ckeditor5-block-quote": "^10.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^9.0.0",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^5.0.0",
+    "@ckeditor/ckeditor5-easy-image": "^10.0.0",
+    "@ckeditor/ckeditor5-editor-classic": "^10.0.0",
+    "@ckeditor/ckeditor5-essentials": "^10.0.0",
+
+
+    "@ckeditor/ckeditor5-heading": "^10.0.0",
+    "@ckeditor/ckeditor5-image": "^10.0.0",
+    "@ckeditor/ckeditor5-link": "^10.0.0",
+    "@ckeditor/ckeditor5-list": "^10.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^10.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^10.0.0",
+    "@ckeditor/ckeditor5-upload": "^10.0.0",
+    "babel-minify-webpack-plugin": "^0.3.0",
+
+    "extract-text-webpack-plugin": "^3.0.2",
+  	"extract-text-webpack-plugin": "^2.0.0-beta.3",
+
+
+    "postcss-loader": "^2.0.10",
+    "postcss-loader": "^0.13.0",
+
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.20.3", ==> DONE UDAH DI PASANG
+
+
+    "webpack": "^3.11.0",
+     "webpack": "2.1.0-beta.20" 
+    "webpack-sources": "1.0.1"
+
+
+#
+
+babel-loader@6.4.1 requires a peer of webpack@1 || 2 || ^2.1.0-beta || ^2.2.0-rc but none was installed.
+
+karma-webpack@1.8.1 requires a peer of webpack@^1.1.0 || ^2 || ^2.1.0-beta || ^2.2.0-rc but none was installed.
+
+sass-loader@4.1.1 requires a peer of webpack@^2 || ^2.2.0-rc.0 || ^2.1.0-beta || ^1.12.6 but none was installed.
+
+
+
+#
+	
+	- "babel-loader": "^6.4.1",
+
+
+	"babel-loader": "^7.1.4",

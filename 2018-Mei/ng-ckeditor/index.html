@@ -1,0 +1,26 @@
+<html ng-app="CKEditorExample">
+
+  <head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+    <script src="//cdn.ckeditor.com/4.5.6/standard/ckeditor.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+    
+    <script src="https://s3-ap-southeast-1.amazonaws.com/naveensingh/posts_data/ckeditor_example/ng-ckeditor.min.js"></script>
+    
+    <title>Angular CKEditor Example with custom directive and ng-ckeditor</title>
+  </head>
+
+  <body ng-controller="MainCtrl" style="padding:20px">
+    <h1>Method 1</h1>
+    <textarea ng-model="content" data-ck-editor></textarea>
+    	{{content}}
+    
+    <hr>
+    
+    <h1>Method 2</h1>
+    <textarea ckeditor="editorOptions" ng-model="content_two"></textarea>
+    
+    {{content_two}}
+  </body>
+
+</html>
