@@ -1,0 +1,55 @@
+#Integrate CK Editor to React 
+
+	- https://github.com/ckeditor/ckeditor5/issues/599
+
+	- https://www.youtube.com/watch?v=feUYwoLhE_4
+
+
+#WHAT I DO
+
+	- Using React ---- "notaris" app
+
+	- Deep Webpack
+
+	- Deep Webpack + integrate to "ckeditor5.github.io" 
+
+
+#WHAT I DO
+	
+	- https://hackernoon.com/webpack-3-quickstarter-configure-webpack-from-scratch-30a6c394038a
+
+		***  integrate to "ckeditor" folder ==> DONE
+
+
+
+#WHAT I DO
+
+	- Commmit "Selasa 12.00", notaris-ang_v2
+
+
+
+#
+
+	npm install --save \
+    @ckeditor/ckeditor5-dev-webpack-plugin \
+    @ckeditor/ckeditor5-dev-utils \
+    raw-loader \
+
+
+
+ #
+
+ 	- npm i @ckeditor/ckeditor5-basic-styles
+
+ 	- npm i @ckeditor/ckeditor5-editor-classic
+
+
+
+#Trouble : listen EADDRINUSE || clean-webpack-plugin has been removed
+
+	- https://stackoverflow.com/questions/9898372/how-to-fix-error-listen-eaddrinuse-while-using-nodejs
+
+	- killall -9 node
+
+
+

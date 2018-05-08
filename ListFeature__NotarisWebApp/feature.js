@@ -25,11 +25,15 @@
 
 	- Feature Export to PDF
 
-	- Feature Stylesheet
+	- Feature Stylesheet ==> DONE
 
-	- 
+	- Feature Button Save
+
+	- Feature Rata Tengah - Kiri
 
 
 #QUESTION
 
 	- Page Setup: every words in page 1 have to be printed in page, etc ?
+
+	- Feature Line beside first paragraf
