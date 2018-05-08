@@ -11,6 +11,8 @@
 
 # Tentang Feature Document 
 
+	- 
+
 	- Feature Tabs
 
 	- Feature Line Spacing
@@ -23,4 +25,11 @@
 
 	- Feature Export to PDF
 
+	- Feature Stylesheet
+
 	- 
+
+
+#QUESTION
+
+	- Page Setup: every words in page 1 have to be printed in page, etc ?
