@@ -11,25 +11,31 @@
 
 # Tentang Feature Document 
 
-	- 
-
-	- Feature Tabs
+	- Feature Tabs ==> DONE
 
 	- Feature Line Spacing
 
 	- Feature replace dash to replace empty space
 
-	- Feature Page A4 
-
 	- Feature Print
 
 	- Feature Export to PDF
 
-	- Feature Stylesheet ==> DONE
+	- Feature Stylesheet 
 
 	- Feature Button Save
 
 	- Feature Rata Tengah - Kiri
+
+	- Feature A4 
+
+	- Feature A3 (Top 2cm, Bottom 2cm, Left 6cm, Rig)
+
+	- 
+
+	- REFERENSI FEATURE ==> https://docs.google.com/document/d/1jxvps6GYVlMuYtrVu6WLYX2tCUxvngsh5uXHQ7xOY8E/edit
+
+
 
 
 #QUESTION

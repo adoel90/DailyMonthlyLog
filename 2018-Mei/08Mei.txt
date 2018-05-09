@@ -19,13 +19,11 @@
 	- https://hackernoon.com/webpack-3-quickstarter-configure-webpack-from-scratch-30a6c394038a
 
 		***  integrate to "ckeditor" folder ==> DONE
-
-
+		
 
 #WHAT I DO
 
 	- Commmit "Selasa 12.00", notaris-ang_v2
-
 
 
 #
@@ -36,8 +34,7 @@
     raw-loader \
 
 
-
- #
+#
 
  	- npm i @ckeditor/ckeditor5-basic-styles
 
@@ -50,6 +47,5 @@
 	- https://stackoverflow.com/questions/9898372/how-to-fix-error-listen-eaddrinuse-while-using-nodejs
 
 	- killall -9 node
-
 
 

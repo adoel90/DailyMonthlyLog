@@ -1,0 +1,52 @@
+#WHAT I DO
+
+	- https://www.npmjs.com/package/officegen ==> YET AVAILABLE
+
+	- Feature Print CK Editor
+
+		***https://docs.google.com/document/d/1jxvps6GYVlMuYtrVu6WLYX2tCUxvngsh5uXHQ7xOY8E/edit (REFERENSI)
+
+	- Feature Convert to PDF CK Editor ==> YET, MOVED TO quill.js
+
+	- Explore Custom Build ==> YET, MOVED TO quill.js
+
+	- Mesti integrate "notaris-ang_v4" dengan Angular v1.6 ==> YET, MOVED TO quill.js
+
+
+
+
+#Google :
+
+
+	- https://github.com/ianstormtaylor/slate
+
+		***Slate: A completely customizable framework for building rich text editors. ==> YET, MOVED TO quill.js
+
+
+	- https://quilljs.com/
+
+		***Quill.js, the free, open source WYSIWYG editor
+
+
+	- https://github.com/quilljs/parchment/blob/master/package.json
+
+		***  To see inherited and static methods and variables.
+
+
+	- http://www.bootcdn.cn/react-quill/readme/
+
+		***Quill.js, the free, open source WYSIWYG editor
+		
+		***React-quill, a React component that wraps Quill.js
+
+
+	- https://github.com/zenoamaro/react-quill
+
+		***To look example code of react-quill Editor
+
+
+	- https://github.com/cognitom/paper-css
+
+		***Paper Css for happy printing 
+
+		***A3,A4,A5
