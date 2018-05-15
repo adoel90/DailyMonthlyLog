@@ -1,0 +1,25 @@
+
+
+#
+
+	- https://github.com/quilljs/parchment
+
+	- https://quilljs.com/guides/cloning-medium-with-parchment/
+
+	- https://github.com/quilljs/quill/blob/develop/formats/blockquote.js
+
+
+
+#
+
+	- https://github.com/quilljs/parchment/issues/34
+
+		***To Replace white space i think. Find on there !!!
+
+
+
+#
+
+	- https://github.com/quilljs/quill/issues/903
+
+		***Its no longer the concern of quill to provide HTML and the they have removed the getHTML methods

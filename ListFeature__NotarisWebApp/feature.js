@@ -3,23 +3,28 @@
 
 	- Feature hover tooltip untuk semua features 
 
-	- Feature Undo
+	- Feature Undo ==> DONE
 
-	- Fitur Redo
+	- Fitur Redo ==> DONE
 
 	- Fitur 'Teks Normal' ==> DONE
 
-	- Feature Font Style
+	- Feature Font Style ==> DONE
 
-	- Feature Font Size
+	- Feature Font Size ==> DONE
 
-	- Feature Bold
+	- Feature Bold ==> DONE
 
-	- Feature Italic
+	- Feature Italic ==> DONE
+
+	- Feature Button Save
+
+	-***********************************************************************GARIS KERAS BATAS PRIORITAS*******************
+
 
 	- Feature Underscore
 
-	- Feature Select color
+	- Feature Color Picker ==> DONE
 
 	- Feature sisipkan gambar
 
@@ -31,10 +36,9 @@
 
 	- Feature List Bullet
 
-	- Feature Tabs ==> DONE
+	- Feature Tabs ==> YET
 	
-	- Feature replace dash to replace empty space
-
+	- Feature replace dash to replace empty space ==> DONE
 
 	- Feature Print
 
@@ -42,12 +46,20 @@
 
 	- Feature Button Save
 
+	- Feature Toolbar Setting Size Paper
 
-	- Feature A4 
+		- Feature A4 
 
-	- Feature A3 (Top 2cm, Bottom 2cm, Left 6cm, Rig)
+			***Tampilan display ==> DONE
 
-	- 
+			***Print in A4 
+
+			***Export PDF A4 
+
+
+		- Feature A3 (Top 2cm, Bottom 2cm, Left 6cm, Rig)
+
+	- Feature LineBorderPinggir/BlockQuote ==> DONE
 
 	- REFERENSI FEATURE ==> https://docs.google.com/document/d/1jxvps6GYVlMuYtrVu6WLYX2tCUxvngsh5uXHQ7xOY8E/edit
 
