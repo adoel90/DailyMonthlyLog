@@ -1,0 +1,135 @@
+
+#
+
+
+
+
+
+
+# Feature Tata Letak Halaman
+
+	Scenario: Lawyer ingin membuat Dokumen AKTA dengan ukuran Default size A4, 
+				dengan setting default Margin. 
+
+		Given, in page "Buat AKTA"
+
+		When, lawyer klik side-bar "Buat AKTA"
+
+		Then, Muncul Text Editor 
+
+
+	Scenario: Lawyer ingin setting sendiri margin kiri, kanan, atas, bawah
+
+		Given, in Text Editor
+
+		When, lawyer klik Picker Margin Kiri
+
+		And, lawyer klik Picker Margin Kanan
+
+		And, lawyer klik Picker Margin Atas
+
+		And,  lawyer klik Picker Margin Bawah
+
+		Then, cursor mouse terbatasi sesuai dengan margin yang telah di atur.
+
+
+	Scenario: Lawyer ingin ganti size Paper (A3, A4, etc)
+
+		Given, in Text Editor
+
+		When, lawyer klik Picker Paper  (A3, A4, etc)
+
+		Then, ukuran kertas berubah sesuai yang di ingin-kan lawyer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+
+	- https://www.webtamasta.com/2010/04/membuat-garis-tepi-dokumen-notaris-di.html
+
+		***Contoh membuat garis tepi
+
+
+	- http://www.hukumonline.com/klinik/detail/lt558a2d8c22ba0/fungsi-garis-garis-pada-akta-notaris
+
+		*** Fungsi Garis-garis pada Akta Notaris
+
+
+	- https://onedrive.live.com/edit.aspx?cid=fec1a42da47500cf&page=view&resid=fec1a42da47500cf!125&parId=fec1a42da47500cf!105&app=Word
+
+		*** To see Example of Tata Letak Halaman
+
+
+	- https://quilljs.com/guides/how-to-customize-quill/#extending-blots
+
+		***To gain advanced in Quill.js Part-2
+
+
+	- https://dev.to/charrondev/getting-to-know-quilljs---part-1-parchment-blots-and-lifecycle--3e76
+
+		***To gain advanced in Quill.js Part-2
+
+	- https://github.com/quilljs/quill/issues/1832
+
+		***Read this !!!!
+
+
+#
+
+	- https://dev.to/charrondev/getting-to-know-quilljs---part-1-parchment-blots-and-lifecycle--3e76
+
+
+	//#Feature New Bold
+	// class Bold extends Inline {
+	//     static tagName = "strong";
+	//     static blotName = "bold";
+	// }
+
+	//Feature Test Blot
+	class ClickableSpan extends Inline {
+	    static tagName = "span";
+	    static className = "ClickableSpan";
+
+	    static create(initialValue) {
+	        const node = super.create();
+	        node.setAttribute("spellcheck", false);
+	        node.classList.add("otherClass")
+	        // Returning <code class="ClickableSpan otherClass">{initialValue}</code>
+	        return node;
+	    }
+
+	    constructor(domNode) {
+	        super(domNode);
+
+	        // Bind our click handler to the class.
+	        this.clickHandler = this.clickHandler.bind(this);
+	        domNode.addEventListener(this.clickHandler);
+	    }
+
+	    clickHandler(event) {
+	        console.log("ClickableSpan was clicked. Blot: ", this);
+	    }
+	}
+	ClickableSpan.blotName = 'spanspan';
+	ClickableSpan.tagName = 'spanspan';
+	Quill.register(ClickableSpan);
+
+	function featureSpan(){
+
+	    const newBlot = Parchment.create("spanspan");
+	    const spanSpan = this.quill.getSelection().index;
+	    console.log("Test Blot");
+	    newBlot.insertInto(spanSpan);
+	}

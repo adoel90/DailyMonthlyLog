@@ -17,7 +17,7 @@
 
 	- Feature Italic ==> DONE
 
-	- Feature Button Save
+	- Feature Button Save ==> DONE
 
 	-***********************************************************************GARIS KERAS BATAS PRIORITAS*******************
 
@@ -34,9 +34,9 @@
 
 	- Feature List Number
 
-	- Feature List Bullet
+	- Feature List Bullet ==> DONE
 
-	- Feature Tabs ==> YET
+	- Feature Tabs ==> DONE
 	
 	- Feature replace dash to replace empty space ==> DONE
 
@@ -46,7 +46,7 @@
 
 	- Feature Button Save
 
-	- Feature Toolbar Setting Size Paper
+	- Feature Tata Letak Halaman
 
 		- Feature A4 
 
