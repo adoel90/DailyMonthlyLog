@@ -59,22 +59,23 @@
 
 		- Feature A3 (Top 2cm, Bottom 2cm, Left 6cm, Rig)
 
+		- Feature Ukuran Kertas (A3, A4)
+
 	- Feature LineBorderPinggir/BlockQuote ==> DONE
 
 	- REFERENSI FEATURE ==> https://docs.google.com/document/d/1jxvps6GYVlMuYtrVu6WLYX2tCUxvngsh5uXHQ7xOY8E/edit
 
 
-# Tentang Feature Lawyer Web Application
+# Tentang Feature Lawyer Web Application 
 	
-	- Feature Login Functional :
+	- Feature Login Functional : ==> DONE 
 		
 		Scenario: Direktur Notaris Mengkses Page Login Notaris Web App
 
 		Scenario: Direktur Notaris Berhasil Login Dan masuk ke tampilan Page Beranda Direktur Notaris
 
 
-	- Feature Login Interface
-
+	- Feature Login Interface ==> DONE
 
 
 

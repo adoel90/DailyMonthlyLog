@@ -18,7 +18,7 @@
 		Then, Muncul Text Editor 
 
 
-	Scenario: Lawyer ingin setting sendiri margin kiri, kanan, atas, bawah
+	Scenario: Lawyer ingin setting sendiri margin kiri, kanan, atas, bawah ==> DONE
 
 		Given, in Text Editor
 
@@ -40,14 +40,6 @@
 		When, lawyer klik Picker Paper  (A3, A4, etc)
 
 		Then, ukuran kertas berubah sesuai yang di ingin-kan lawyer
-
-
-
-
-
-
-
-
 
 
 
