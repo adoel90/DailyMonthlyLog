@@ -19,36 +19,37 @@
 
 	- Feature Button Save ==> DONE
 
-	-***********************************************************************GARIS KERAS BATAS PRIORITAS*******************
+	- Feature Color Picker ==> DONE
 
+	- Feature List Bullet ==> DONE
+
+	- Feature Tabs ==> DONE
+
+	- Feature LineBorderPinggir/BlockQuote ==> DONE
+
+	- Feature Rata Tengah - Kiri ==> DONE
 
 	- Feature Underscore
 
-	- Feature Color Picker ==> DONE
+	- Feature Button Save ==> DONE
+
+	-*******************************************GARIS KERAS BATAS PRIORITAS*******************
+	
+	- Feature replace dash to replace empty space ==> NEED REVIEW REWORK
 
 	- Feature sisipkan gambar
-
-	- Feature Rata Tengah - Kiri
 
 	- Feature Jarak Antar Baris (Line Spacing)
 
 	- Feature List Number
 
-	- Feature List Bullet ==> DONE
-
-	- Feature Tabs ==> DONE
-	
-	- Feature replace dash to replace empty space ==> DONE
-
 	- Feature Print
 
 	- Feature Export to PDF
 
-	- Feature Button Save
-
 	- Feature Tata Letak Halaman
 
-		- Feature A4 
+		- Feature A4 ==> DONE
 
 			***Tampilan display ==> DONE
 
@@ -56,14 +57,13 @@
 
 			***Export PDF A4 
 
+		- Feature A3 (Top 2cm, Bottom 2cm, Left 6cm, Rig) ==> DONE
 
-		- Feature A3 (Top 2cm, Bottom 2cm, Left 6cm, Rig)
+		- Feature Ukuran Kertas (A3, A4) ==> DONE
 
-		- Feature Ukuran Kertas (A3, A4)
-
-	- Feature LineBorderPinggir/BlockQuote ==> DONE
 
 	- REFERENSI FEATURE ==> https://docs.google.com/document/d/1jxvps6GYVlMuYtrVu6WLYX2tCUxvngsh5uXHQ7xOY8E/edit
+
 
 
 # Tentang Feature Lawyer Web Application 
@@ -76,9 +76,6 @@
 
 
 	- Feature Login Interface ==> DONE
-
-
-
 
 
 #QUESTION
