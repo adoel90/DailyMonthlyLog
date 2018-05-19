@@ -1,0 +1,27 @@
+#
+
+	- https://hackernoon.com/10-react-mini-patterns-c1da92f068c5
+
+		***To find some Mini Pattern React.
+
+
+
+	- react-select-plus
+
+
+	- <div class="Select is-clearable is-searchable Select--single">
+		<div class="Select-control">
+			<span class="Select-multi-value-wrapper" id="react-select-2--value">
+				<div class="Select-placeholder">Select...</div>
+					<div class="Select-input" style="display: inline-block;">
+						<input aria-activedescendant="react-select-2--value" aria-expanded="false" aria-haspopup="false" aria-owns="" role="combobox" value="" style="box-sizing: content-box; width: 5px;">
+
+						<div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: &quot;Open sans&quot;, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;">
+						</div>
+					</div>
+				</span>
+				<span class="Select-arrow-zone">
+					<span class="Select-arrow"></span>
+				</span>
+			</div>
+		</div>

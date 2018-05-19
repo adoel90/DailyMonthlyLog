@@ -1,0 +1,32 @@
+#Folder yang masih ada :
+
+	export * from './AdminPanel';
+	export * from './AdminUser';
+	export * from './AdminLogin';
+	export * from './AdminLogout';
+
+#Folder yang di hapus : 
+
+	export * from './AdminDashboard';
+	export * from './AdminVendor';
+	export * from './AdminMember';
+	export * from './AdminCard';
+	export * from './AdminAccess';
+	export * from './AdminStore';
+	export * from './AdminReport';
+	export * from './AdminSetting';
+
+
+	export * from './AdminStoreCashierTopUp';
+	export * from './AdminStoreCashierNewCard';
+	export * from './AdminStoreCashierRefund';
+	export * from './AdminStoreCashierReport';
+	export * from './AdminStoreCashierCheckSaldo';
+
+	//Admin Stores === Vendor
+	export * from './AdminStoresMenu';
+	export * from './AdminStoresEmployee';
+	export * from './AdminStoresReport';
+	export * from './AdminStoresReportMenu';
+	export * from './AdminStoresPromo';
+	export * from './AdminTransaction';
