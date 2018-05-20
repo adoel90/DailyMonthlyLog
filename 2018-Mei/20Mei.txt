@@ -1,0 +1,39 @@
+
+
+#Is there a Find and Replace plugin? 
+
+#
+	Perhaps my issue and documentation searches have just been all wrong.
+	I am looking for a basic Quill find and replace dialog.
+	Thank you
+
+#
+	Not that I've seen. Quill it quite extensible though. You could create a module 
+	(Really just a javascript class that gets a copy of your quill instance and config), 
+	and tie it into some custom UI component. Then listen for text changes in your input, find all instances of the text your looking for, calculate their positions, 
+	and format them with a custom attributor that highlights them. Then when some places in their replacement text, and clicks replace, 
+	programmatically change all of the affect text and remove your custom attributor.
+
+	Tidak begitu yang saya liat. Quill cukup extensible saya pikir. Kamu dapat membuat sebuah MODUL
+	kamu sendiri (Really just a javascript class yang mendapatkan sebuah Bundle Javascript Quill kamu), dan
+	kaitkan bundle tersebut ke suatu UI component. Kemudian listen for text change in your input, 
+	temukan bundle javascript quill yang kamu cari, calculate their positions, 
+	and format posisi- posisi tersebut dengan a Custom Attributor that highlights them.
+	
+	Then when some places in their replacement text, and clicks replace, 
+	programmatically change all of the affect text and remove your custom attributor.
+
+
+
+#
+	
+	- Bisa console onChange data dari text editor
+
+	- Bisa get length of text editor
+
+	- Bisa menghitung berapa karakter kata yang di block (FIND)
+
+	- Bisa insert "-" (REPLACE) ==> DONE
+	
+
+
