@@ -1,0 +1,37 @@
+
+
+
+# Feature replace dash to replace empty space
+
+	Scenario: Lawyer menulis kalimat dengan setting rata kiri, 
+				dan bubuhi "----" to replace empty space pada line garis tersebut,
+				hingga akhir di bagian kanan baris tersebut.
+
+
+		Given, in page "Buat AKTA"
+
+		And, ketik kalimat "PENDIRIAN PERSEROAN TERBATAS"
+
+		And, setting to rata kiri
+
+		And, block kata- kata tersebut
+
+		When, klik icon strip
+
+		Then, muncul garis- garis strip sepanjang line baris kata tersebut
+
+
+	Scenario: Lawyer menulis kalimat dengan setting rata tengah, 
+				dan bubuhi "----" to replace empty space pada line garis tersebut, antara kalimat tersebut sebelah kiri dan kanan ada bubuhan-nya 
+
+		Given, in page "Buat AKTA"
+
+		And, ketik kalimat "PENDIRIAN PERSEROAN TERBATAS"
+
+		And, setting to rata tengah
+
+		And, block kata- kata tersebut
+
+		When, klik icon strip
+
+		Then, muncul garis- garis strip di antara kalimat "PENDIRIAN PERSEROAN TERBATAS"
