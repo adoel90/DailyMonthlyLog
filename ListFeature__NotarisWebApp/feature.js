@@ -29,19 +29,22 @@
 
 	- Feature Rata Tengah - Kiri ==> DONE
 
-	- Feature Underscore
+	- Feature Underscore ==> DONE
 
 	- Feature Button Save ==> DONE
 
-	-*******************************************GARIS KERAS BATAS PRIORITAS*******************
-	
-	- Feature replace dash to replace empty space ==> NEED REVIEW REWORK
+	- Feature Line Height (Jarak Antar Baris) ==> DONE
 
-	- Feature sisipkan gambar
+	- Feature sisipkan gambar ==> DONE
+
+	-*******************************************GARIS KERAS BATAS PRIORITAS*******************
+
 
 	- Feature Jarak Antar Baris (Line Spacing)
 
 	- Feature List Number
+
+	- Feature replace dash to replace empty space ==> NEED REVIEW REWORK
 
 	- Feature Print
 
@@ -64,18 +67,10 @@
 
 	- REFERENSI FEATURE ==> https://docs.google.com/document/d/1jxvps6GYVlMuYtrVu6WLYX2tCUxvngsh5uXHQ7xOY8E/edit
 
-
-
-# Tentang Feature Lawyer Web Application 
 	
-	- Feature Login Functional : ==> DONE 
-		
-		Scenario: Direktur Notaris Mengkses Page Login Notaris Web App
-
-		Scenario: Direktur Notaris Berhasil Login Dan masuk ke tampilan Page Beranda Direktur Notaris
+	-*******************************************BUGS*****************************************
 
 
-	- Feature Login Interface ==> DONE
 
 
 #QUESTION

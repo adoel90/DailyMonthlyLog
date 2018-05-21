@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculate white space</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<textarea name="my_textarea" id="my_textarea" placeholder="Enter information here" rows="8" cols="60" onKeyUp="textChar(this);" tabindex="2"></textarea>
+
+<div id="textNum"></div>
+
+<script>
+ function textChar(val) {
+    
+    var len = val.value.length;
+
+    if (len >= 500) {
+    
+    }; 
+   	
+   	$('#textNum').text(500 - len);
+  };
+
+</script>
+</body>
+</html>

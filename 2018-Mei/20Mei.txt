@@ -24,14 +24,13 @@
 	programmatically change all of the affect text and remove your custom attributor.
 
 
-
 #
 	
 	- Bisa console onChange data dari text editor
 
-	- Bisa get length of text editor
+	- Bisa get length of character filled in text editor
 
-	- Bisa menghitung berapa karakter kata yang di block (FIND)
+	- Bisa menghitung berapa karakter kata yang di block (FIND) 
 
 	- Bisa insert "-" (REPLACE) ==> DONE
 	
