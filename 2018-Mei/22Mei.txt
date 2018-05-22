@@ -1,0 +1,57 @@
+#Solving BUG
+
+	- In Owner - Nama Customer di ganti nama staff di print Laporan Owner ==> DONE
+
+	- Laporan Print Owner ==> DONE
+
+	- Type password ga bisa login ==> DONE
+
+	- Need Clarification in Kasir - Kartu Baru ==> DONE 
+
+	- Kasir - Pendaftaran kartu baru saat pilih tipe member ==> DONE
+
+	- Laporan Print Superadmin 
+
+	- Superadmin bisa melakukan apapun yang di lakukan Owner, Staff (Terutama bisa liat laporan & bisa print) 
+
+	- Print tanpa Pop Up Chrome
+
+	- Kasir print transaksi Mark-up
+
+	- Kasir print transaksi Discount
+
+	- Siapin kartu siap PAKE
+
+
+#Explore replace % dan ? dengan ""
+
+	%0011517222736458?
+	%0011517222736458?
+	0011517222736458
+
+	var str = "This is sample text for a sample replace";  
+	str = str.replace(/sample/g, "lovely");  
+	console.log(str); 
+
+	var final = null;
+	var data = "%0011517222736458?";
+	data = data.replace('%', "");
+	final = data.replace('?', "");
+	console.log(final);
+
+
+#Implement in Carwash
+
+	let firstData = authData.cardID.replace('%', "");
+	let finalDataCardId = firstData.replace('?', "");
+
+	let requireData = {
+		cardID: finalDataCardId
+	}
+
+
+
+#
+
+
+Thanks for sharing your question with me. Please disable the PDF viewer on Chrome and check. Go to Settings > Show advanced settings > Content settings > PDF Documents > uncheck open PDF files in the default PDF viewer application.
