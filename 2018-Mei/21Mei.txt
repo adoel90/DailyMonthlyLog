@@ -1,0 +1,177 @@
+#
+
+	- https://codepen.io/k3no/post/a-look-at-quill-js
+
+	- https://www.scalablepath.com/blog/using-quill-js-build-wysiwyg-editor-website/
+
+		*** Use Quill.js in depth !!!
+
+#
+
+	- 
+		var limit = 10;
+
+		quill.on('text-change', function (delta, old, source) {
+
+		  if (quill.getLength() > limit) {
+		  	quill.deleteText(limit, quill.getLength());
+
+		  };
+		});
+
+	- Total karakter "huruf" per-paper A4 : 3780 character.
+
+	- Total karakter "strip" per-paper A4 : 5320 character.
+
+
+#
+
+	- Code Calculate all white space character in paper A4 ==> DONE 5320 character
+
+	- Code bisa get length of character filled in text editor ==> DONE
+
+
+#Total karakter "strip" per-line A4 dengan margin 2.54mm : 119 character.
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+#
+
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+kjhkkkhkhkfdsafdasfdasfdasfdsfdsfdsfdsfdsfaaaaaaaaaaaaaadsafdasfdsfdsfdsfdsfdfdfdfd
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+  var deltaOperationDelete = {
+            ops: [
+                { delete: 1 }
+            ]
+        };
+
+        var deltaGandalf = {
+              ops: [
+                { insert: 'Gandalf', attributes: { bold: true } },
+                { insert: ' the ' },
+                { insert: 'Grey', attributes: { color: '#cccccc' } }
+              ]
+        }
+
+        var deltaRetain = {
+
+            ops: [
+                // Unbold and italicize "Gandalf"
+                { retain: 7, attributes: { bold: null, italic: true } },
+
+                // Keep " the " as is
+                { retain: 5 },
+
+                // Insert "White" formatted with color #fff
+                { insert: "White", attributes: { color: '#cccccc' } },
+
+                // Delete "Grey"
+                { delete: 4 }
+            ]
+        };
+
+        var deltaDeleteOperationOke = {
+            
+            ops: [{
+                delete: {
+                    index: 4,
+                  length: 1
+                }
+              }, {
+                delete: {
+                  index: 12,
+                  length: 3
+                }
+              }]
+        }
+
+        //A4 === 72
+        var delta = {
+            ops: [
+                { insert: 'The Two Towers' },
+                { insert: '\n', attributes: { header: 3 } },
+                { insert: 'Aragorn sped on up the hill.\n' }
+            ]
+          };
+
+
+#
+
+	.ql-snow .ql-editor blockquote {
+	
+	    border-left: 4px solid #af1414;
+	    margin-bottom: 5px;
+	    margin-top: 5px;
+	    padding-left: 16px;
+	}
+
+
+#
+
+    - <span><i className="fas fa-arrows-alt-v icon-size"></i></span>
