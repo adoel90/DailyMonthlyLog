@@ -14,6 +14,12 @@
 
 	- Superadmin bisa melakukan apapun yang di lakukan Owner, Staff (Terutama bisa liat laporan & bisa print) 
 
+		***Laporan Kasir ==> DONE
+
+		***Laporan Penjualan Store ==> Akhir-nya Interface-nya di buat Button "Detail Access" 
+
+
+
 	- Print tanpa Pop Up Chrome
 
 	- Kasir print transaksi Mark-up
