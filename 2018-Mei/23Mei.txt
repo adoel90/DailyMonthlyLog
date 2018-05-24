@@ -4,3 +4,16 @@
 	- Scenario superadmin can access all route
 
 
+#
+
+	When klik Daftar Staff di SuperAdmin 
+
+	Then ga muncul error karena Store Id ga ada 
+
+
+#
+
+	When klik Daftar Staff di Owner (Contoh John Rambo)
+	
+	Then berhasil dapat list Staff karena terdapat id Store
+

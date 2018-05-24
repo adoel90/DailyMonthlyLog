@@ -1,0 +1,22 @@
+#WHAT I DO 
+
+	- Buat Feature "Kartu Baru New"
+
+		***Code mirip with Feature "Isi Ulang"
+
+		***AdminStoreCashierTopUp.js
+
+		***CashierTopUp.js
+
+		***CashierTopUpForm.js
+
+	- Buat Feature "Stock Kartu"
+
+	- Feature "Laporan Total Penjualan" 
+
+
+#Google
+
+	- css horizontal tab scroll
+
+	- https://css-tricks.com/pure-css-horizontal-scrolling/

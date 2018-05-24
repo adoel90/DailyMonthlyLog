@@ -18,6 +18,8 @@
 
 		***Laporan Penjualan Store ==> Akhir-nya Interface-nya di buat Button "Detail Access" 
 
+		***Owner - Feature Staff
+
 
 
 	- Print tanpa Pop Up Chrome
