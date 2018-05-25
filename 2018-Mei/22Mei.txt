@@ -1,36 +1,3 @@
-#Solving BUG
-
-	- In Owner - Nama Customer di ganti nama staff di print Laporan Owner ==> DONE
-
-	- Laporan Print Owner ==> DONE
-
-	- Type password ga bisa login ==> DONE
-
-	- Need Clarification in Kasir - Kartu Baru ==> DONE 
-
-	- Kasir - Pendaftaran kartu baru saat pilih tipe member ==> DONE
-
-	- Laporan Print Superadmin 
-
-	- Superadmin bisa melakukan apapun yang di lakukan Owner, Staff (Terutama bisa liat laporan & bisa print) 
-
-		***Laporan Kasir ==> DONE
-
-		***Laporan Penjualan Store ==> Akhir-nya Interface-nya di buat Button "Detail Access" 
-
-		***Owner - Feature Staff
-
-
-
-	- Print tanpa Pop Up Chrome
-
-	- Kasir print transaksi Mark-up
-
-	- Kasir print transaksi Discount
-
-	- Siapin kartu siap PAKE
-
-
 #Explore replace % dan ? dengan ""
 
 	%0011517222736458?

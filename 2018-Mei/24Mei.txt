@@ -10,13 +10,14 @@
 
 		***CashierTopUpForm.js
 
-	- Buat Feature "Stock Kartu"
 
-	- Feature "Laporan Total Penjualan" 
+	- Feature "Daftar Staff"
+
+		***BUG_01, ==> DONE
 
 
 #Google
 
-	- css horizontal tab scroll
+	- css horizontal tab scroll ==> Using Dropdown
 
 	- https://css-tricks.com/pure-css-horizontal-scrolling/
