@@ -33,12 +33,14 @@
 #
 	- Feature "Laporan Total Penjualan" 
 
-		***Button Print has not worked yet
+		***Button Print has not worked yet ==> DONE
+
+		***Button "Menu Favorits" ==> Need clarification
 
 
 	- Feature "Buat Staff Baru"
 
-		***Dropdown list Store has not worked yeT
+		***Dropdown list Store has not worked yet ==> DONE
 
 	
 	- Buat Feature "Stock Kartu"
