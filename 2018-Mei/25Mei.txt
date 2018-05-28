@@ -18,36 +18,36 @@
 
 		***Laporan Penjualan Store ==> Akhir-nya Interface-nya di buat Button "Detail Access" 
 
-		***Owner - Feature Staff
+		***Owner - Feature Staff ==> DONE
 
 
 	- Print tanpa Pop Up Chrome
 
-	- Kasir print transaksi Mark-up
+	- Kasir print transaksi Mark-up ==> DONE 
 
-	- Kasir print transaksi Discount
+	- Kasir print transaksi Discount ==> DONE
 
 	- Siapin kartu siap PAKE
 
 
 #
+	- Feature "Buat Staff Baru"
+
+		***Dropdown list Store has not worked yet ==> DONE
+
+
+	- Buat Feature "Daftar Produk" ==> DONE
+
+
 	- Feature "Laporan Total Penjualan" 
 
 		***Button Print has not worked yet ==> DONE
 
 		***Button "Menu Favorits" ==> Need clarification
-
-
-	- Feature "Buat Staff Baru"
-
-		***Dropdown list Store has not worked yet ==> DONE
-
+		
 	
 	- Buat Feature "Stock Kartu"
 
 		***
 
-	- Buat Feature "Daftar Produk"
-
-		***
 
