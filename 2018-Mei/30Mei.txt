@@ -1,0 +1,65 @@
+#
+
+	- https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525
+
+	- https://medium.com/actualize-network/how-to-learn-vim-a-four-week-plan-cd8b376a9b85
+
+
+#Review Interface Customer
+
+
+	- Customer : 
+
+		***0011513764055956 - joni - Member
+
+		***0011514220670605 - Alan Walker - Member
+
+		***0011509941546717 Loko Bow Member
+
+		***0151514220557297 - Bruce Wilis - Taxi Online
+
+		***0151523612248786 - Fajar Ramadhan - Taxi Online
+
+		***0151513139180314 - Andi - Taxi Online
+
+		***0151523609679275 - Ramones Ajib - Taxi Online
+
+
+
+#Notaris Web App
+
+	- http://jsfiddle.net/2wk6Q/1/
+
+		***To see template two pages A4 using css
+
+
+	- Google
+
+		***Text editor with paging
+
+		https://stackoverflow.com/questions/750468/rich-text-editorwysiwyg-with-paging-using-javascript
+
+		https://stackoverflow.com/questions/42038884/text-editor-with-paging-similar-to-ms-word
+
+		https://www.sitepoint.com/creating-an-html5-based-document-editor/
+
+		***new page css in text editor
+
+
+
+#
+
+	Is there API in quill to pagination my template css quill editor so that my quill editor can be paging similar ms word ???  ('0' 
+
+	Is it possible to implement paging similar to MS Word in a quill editor using css + javascript pure ?
+
+
+	I need to implement pagination in my quill editor, so if i type text that exceeds the ficed limit of a page then automatically a new page is created and text overflows to the new page with formatting intact.
+
+
+	link css pure to describe what i attempt to solve pagination:
+
+	http://jsfiddle.net/2wk6Q/1/
+
+
+
