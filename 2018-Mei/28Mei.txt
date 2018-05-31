@@ -26,12 +26,10 @@
 	this.state = {
 
 		typeMemberCard : [
-
 			{ id : 1, name: Taxi Online, status: true }
 			{ id : 2, name: Non Member, status: true }
 			{ id : 3, name: Member, status: true }
-		]
-
+		];
 	}
 
 
@@ -41,5 +39,8 @@
 
 
 
+#
+
+	- Superadmin bisa melakukan apapun yang di lakukan Owner, Staff
 
 
