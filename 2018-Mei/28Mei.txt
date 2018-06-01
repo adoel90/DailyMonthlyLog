@@ -1,0 +1,46 @@
+#Review Interface + Flow Process Business Owner Store, Staff, Customer
+
+
+	- Store : Doel Cell
+
+	- Owner : Doel - doel
+
+	- Staff : Wahyu Gendut - wahyu
+
+	- Customer : 
+
+
+		***0011513764055956 - joni - Member
+
+		***0011514220670605 - Alan Walker - Member
+
+		***0151514220557297 - Bruce Wilis - Taxi Online
+
+		***0151523612248786 - Fajar Ramadhan - Taxi Online
+
+
+#Review Interface + Flow Process Business Kasir - Refund ==> DONE
+
+#
+
+	this.state = {
+
+		typeMemberCard : [
+			{ id : 1, name: Taxi Online, status: true }
+			{ id : 2, name: Non Member, status: true }
+			{ id : 3, name: Member, status: true }
+		];
+	}
+
+
+#Using Cucumber in my project 
+
+	- https://www.sitepoint.com/bdd-javascript-cucumber-gherkin/
+
+
+
+#
+
+	- Superadmin bisa melakukan apapun yang di lakukan Owner, Staff
+
+

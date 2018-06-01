@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Text Editor</title>
+<link href="index.css" rel="stylesheet">
+</head>
+<body>
+
+<button onclick="createTemplate()">Create Page</button>
+<main contenteditable="true">
+  <div class="page">
+    <div>Start typing here!</div>
+    <div>Use alt+1 for biggest heading, alt+2 for bigger heading, alt+3 for big heading, etc. Use alt+b for bold, alt+i for italics, and alt+u for underline.</div>
+  </div>
+</main>
+
+<script type="text/javascript">
+
+
+var main = document.getElementsByTagName("main")[0];
+var mainChildren = main.children;
+var limit = innerWidth * 2;
+
+setInterval(() => {
+  if (!main.children) {
+    main.appendChild(document.createElement("div").classList.add("page"));
+  }
+  for (var i2 = 0; i2 < mainChildren.length; i2++) {
+    var divChildren = mainChildren[i2].children;
+    var height = 0;
+    for (var i = 0; i < divChildren.length; i++) {
+      height += divChildren[i].offsetHeight;
+      //console.log(height);
+      if (height >= limit) {
+        if (!mainChildren[i2 + 1]) {
+          var n = document.createElement("div");
+          n.classList.add("page");
+          main.appendChild(n);
+        }
+
+        mainChildren[i2 + 1].prepend(divChildren[i]);
+        divChildren[i].remove();
+      }
+    }
+  }
+}, 100);
+
+function pasteHtmlAtCaret(html, selectPastedContent) {
+  var sel, range;
+  if (window.getSelection) {
+    // IE9 and non-IE
+    sel = window.getSelection();
+    if (sel.getRangeAt && sel.rangeCount) {
+      range = sel.getRangeAt(0);
+      range.deleteContents();
+
+      // Range.createContextualFragment() would be useful here but is
+      // only relatively recently standardized and is not supported in
+      // some browsers (IE9, for one)
+      var el = document.createElement("div");
+      el.innerHTML = html;
+      var frag = document.createDocumentFragment(),
+        node, lastNode;
+      while ((node = el.firstChild)) {
+        lastNode = frag.appendChild(node);
+      }
+      var firstNode = frag.firstChild;
+      range.insertNode(frag);
+
+      // Preserve the selection
+      if (lastNode) {
+        range = range.cloneRange();
+        range.setStartAfter(lastNode);
+        if (selectPastedContent) {
+          range.setStartBefore(firstNode);
+        } else {
+          range.collapse(true);
+        }
+        sel.removeAllRanges();
+        sel.addRange(range);
+      }
+    }
+  } else if ((sel = document.selection) && sel.type != "Control") {
+    // IE < 9
+    var originalRange = sel.createRange();
+    originalRange.collapse(true);
+    sel.createRange().pasteHTML(html);
+    if (selectPastedContent) {
+      range = sel.createRange();
+      range.setEndPoint("StartToStart", originalRange);
+      range.select();
+    }
+  }
+}
+var keymap = {
+  49: {
+    t: "h1",
+    x: "Heading level 1"
+  },
+  50: {
+    t: "h2",
+    x: "Heading level 2"
+  },
+  51: {
+    t: "h3",
+    x: "Heading level 3"
+  },
+  52: {
+    t: "h4",
+    x: "Heading level 4"
+  },
+  53: {
+    t: "h5",
+    x: "Heading level 5"
+  },
+  54: {
+    t: "h6",
+    x: "Heading level 6"
+  },
+  78: {
+    t: "div",
+    x: "Normal text"
+  },
+  73: {
+    t: "i",
+    x: "italics",
+    i: true
+  },
+  66: {
+    t: "b",
+    x: "bold text",
+    i: true
+  },
+  85: {
+    t: "u",
+    x: "underlined text",
+    i: true
+  }
+};
+onkeydown = function(e) {
+  var e = e || window.event; // for IE to cover IEs window event-object
+  console.log(e);
+  if (e.altKey && keymap[e.keyCode]) {
+    //mainChildren[mainChildren.length - 1].appendChild()
+    pasteHtmlAtCaret("<" + keymap[e.keyCode].t + ">" + keymap[e.keyCode].x + "</" + keymap[e.keyCode].t + ">");
+    var node = document.createElement("div");
+    getSelection().getRangeAt(0).insertNode(node);
+
+    //if(keymap[e.keyCode].t.match(/^h\d$/)){
+    node.innerText = "Continue typing...";
+    //}else{
+    //	node.innerText = "\u00A0";
+    //}
+
+
+    var node2 = keymap[e.keyCode].i ? document.createElement("span") : document.createElement("div");
+    node2.innerHTML = node.innerHTML;
+
+    getSelection().getRangeAt(0).endContainer.parentElement.appendChild(node2);
+    node.remove();
+    //getSelection().getRangeAt(0).endContainer.textContent = "";
+    return false;
+  }
+};
+
+</script>
+</body>
+</html>
