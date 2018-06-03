@@ -4,38 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <title>Modern CSS - Grid-based layout</title>
-  
-  
-  
       <link rel="stylesheet" href="css/style.css">
-
-  
-</head>
-
-<body>
-
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Modern CSS</title>
-  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <header>This is the header.</header>
-  <main>
-    <h1>This is the main content.</h1>
+  <header><span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span> Zirann Developer</header>
+  <main >
+    
+    <h1>Component Web </h1>
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla.</p>
   </main>
-  <nav>
-    <h4>This is the navigation section.</h4>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+  <nav id="mySidenav" class="shadow sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul>
+      <li>Button</li>
+      <li>Loading</li>
+      <li>List</li>
+      <li>Card</li>
+      <li>Typography</li>
+            
+    </ul>
   </nav>
   <aside>
     <h4>This is an aside section.</h4>
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
   </aside>
   <footer>This is the footer.</footer>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
 </body>
 </html>
   
