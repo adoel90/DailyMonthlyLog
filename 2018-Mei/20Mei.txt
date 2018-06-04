@@ -30,7 +30,7 @@
 
 	- Bisa get length of character filled in text editor
 
-	- Bisa menghitung berapa karakter kata yang di block (FIND) 
+	- Bisa menghitung berapa karakter kata yang di block (FIND) ==> DONE
 
 	- Bisa insert "-" (REPLACE) ==> DONE
 	
