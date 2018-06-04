@@ -6,8 +6,8 @@
 
 	- Feature Kartu Baru New
 
-		***
 		
+
 
 #What I do - Sass React
 
@@ -22,6 +22,18 @@
 
 		Then, muncul new page in di bawah page pertama
 
+
+#
+	- Cara bertanya yang pas di Stack Overflow ? Masukin ke blog ente dul !!!
+
+		***https://stackoverflow.com/help/how-to-ask
+
+
+#
+
+	- 0022018060441236, Shinta, balance : 100.0000
+ 
+	- 0022018060468541, id: 582, 
 
 
 
