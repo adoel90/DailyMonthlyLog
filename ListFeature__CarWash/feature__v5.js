@@ -50,6 +50,6 @@
 
 	 	And, tulisan di dalam button menjadi "Copied"
 
-	 	And, fungsi copy to clipboard berjalan.
+	 	And, fungsi copy to clipboard berjalan
 
 	

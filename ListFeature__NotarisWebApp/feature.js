@@ -37,14 +37,14 @@
 
 	- Feature sisipkan gambar ==> DONE
 
+	- Feature replace dash to replace empty space ==> DONE
+
 	-*******************************************GARIS KERAS BATAS PRIORITAS*******************
 
 
 	- Feature Jarak Antar Baris (Line Spacing)
 
 	- Feature List Number
-
-	- Feature replace dash to replace empty space ==> NEED REVIEW REWORK
 
 	- Feature Print
 
@@ -64,6 +64,7 @@
 
 		- Feature Ukuran Kertas (A3, A4) ==> DONE
 
+	- Feature Pagination page
 
 	- REFERENSI FEATURE ==> https://docs.google.com/document/d/1jxvps6GYVlMuYtrVu6WLYX2tCUxvngsh5uXHQ7xOY8E/edit
 
