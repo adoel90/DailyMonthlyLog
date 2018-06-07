@@ -13,3 +13,6 @@
 		Then, muncul page kedua kosong
 
 		And, kursor user ready to type again
+
+
+	Scenario: 

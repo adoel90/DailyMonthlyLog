@@ -3,14 +3,13 @@
 }
 
 .ql-container.ql-snow{
-	border-bottom : 1px solid white;
+	/*border-bottom : 1px solid white;*/
 }
 
 
 #counter {
   /*border: 1px solid #ccc;*/
   border-bottom: : 1px solid white;
-
   border-width: 0px 1px 1px 1px;
   color: #aaa;
   padding: 5px 15px;

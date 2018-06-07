@@ -1,0 +1,31 @@
+/*https://gist.github.com/rasmi/8ec4714091be65f8878fa6a7cdc5a67a*/
+
+/* Hide page break line */
+.kix-page-compact::before {
+    border-style: none;
+}
+
+/* Hide Explore icon */
+.docs-explore-widget {
+    display: none;
+}
+
+/* Hide ruler */
+#kix-ruler {
+    display: none;
+}
+
+/* Hide comment bubbles */
+#docos-comment-bubble {
+    display: none;
+}
+
+/* Hide background */
+#docs-editor {
+    background: #333333 !important;
+}
+
+/* Hide border */
+.kix-paginateddocumentplugin-compact-mode {
+    border: none !important;
+}
