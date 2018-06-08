@@ -58,13 +58,10 @@
 	Scenario: ("NEGATIF") 
 
 
-
-
-
 # 
-	Feature Logout User Admin
+	Feature Logout User Admin ==> DONE
 
-	Scenario: Berhasil logout dan kembali ke login page ==> "NOT DONE YET"
+	Scenario: Berhasil logout dan kembali ke login page 
 
 		Given, in page Dashboard yang ada button Log out
 
@@ -73,27 +70,6 @@
 		Then, set null localStorage/ kill localstorage
 
 		And, come back to route Page Login
-
-
-# 
-	Feature Snackbar
-
-	
-#
-	Feature Menu Vendor Cafe Siang 
-
-	Scenario: Berhasil login Vendor Cafe Siang ==> DONE
-
-		Given, posisi di page statistik Vendor Cafe Siang
-
-		When, berhasil login
-
-		Then, muncul Nama Vendor yang login yaitu Vendor Cafe Siang
-
-		And, menu penjualan Cafe Siang
-
-
-		***BUG_02, VENDOR NAME SELECTED masih hardcode 
 
 
 #
@@ -110,13 +86,6 @@
 
 
 		***BUG_01, when klik button ubah, and muncul modal, and setelah update data, error 
-
-
-
-
-
-
-
 
 
 
