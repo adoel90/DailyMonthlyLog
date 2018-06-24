@@ -6,3 +6,5 @@
 		When, klik 'Pilih Store' Rajanya Sparepart
 		Then, muncul field Upload Gambar Produk
 		And, muncul togle switch Penawaran Khusus
+
+#TEs
