@@ -48,3 +48,13 @@
 # BAMINI PROJECT
 
 	- http://128.199.177.16:8000/landing
+
+
+
+#
+
+	Scenario: User berhasil melakukan pencarian di pagination manapun.
+
+	Given, berada di pagination-04
+	When, user ketik whatever in Field "Cari user yang terdaftar"
+	Then, setState() activePage to 1
