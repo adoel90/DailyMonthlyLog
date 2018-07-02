@@ -35,11 +35,6 @@
 	Kalimat saya yg ini: "Staff tertentu hanya bisa melihat laporan apa saja yang telah di jual oleh-nya" seperti-nya mesti saya ralat pak, mohon maaf pak. Yang benar seperti yang di '*Scenario last'. 
 
 
-
-
-
-
-
 		#thanksToGherkin:)
 
 

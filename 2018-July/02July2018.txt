@@ -1,0 +1,9 @@
+#Google
+
+	- add icon in Input search react table bootstrap
+
+#
+
+	- class="react-bs-container-header table-header-wrapper"
+
+	- class="table table-hover"

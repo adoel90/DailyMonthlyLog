@@ -39,7 +39,6 @@ http://128.199.177.16:3307/card/list/generate/id?type=1&accessToken=eyJ0eXAiOiJK
 
 
 #
-
 	- Rizali
 
 	- rizali

@@ -1,0 +1,16 @@
+# Dokumentasi dan Flowchart Carwash : 
+
+	https://docs.google.com/document/d/1y-dfjRaGwlwQNF8H2-TzKHQCIjJeNqQjHH2s754sS-4/edit?usp=sharing
+
+	https://drive.google.com/file/d/1t5wgxcy65waW0FdS_NVFeACjvH8TU1Li/view?usp=sharing
+
+#
+
+	Refund Kartu: Super admin bisa melakukan refund kartu. Refund kartu bisa dilakukan jika kartu member
+	Cek Saldo: Super admin bisa melakukan cek saldo
+	Manajemen Produk: Super admin bisa melihat daftar produk, buat produk, ubah produk dan hapus produk
+	Manajemen Staff: Super admin bisa melihat daftar staff, buat staff, ubah staff dan hapus staff
+	Transaksi: Super admin bisa melakukan transaksi untuk kategori store F&B (Ini di hilangkan)
+	Laporan Total Penjualan: Super admin bisa melihat total laporan penjualan per-store
+	Laporan Kasir: Super admin bisa melihat log aktivitas kasir
+	Laporan Member: Super admin bisa melihat log aktivitas member
