@@ -53,6 +53,45 @@
 	- Scenario: Superadmin dapat melihat list member berikut aktifitas transakasi pembayaran yang di lakukan member/ customer tersebut, melihat saldo, seri nomor kartu.
 
 
-
 #Feature Level Akses Kasir
+
+	- Scenario: Kasir berhasil mengisi ulang/ top-up kartu customer sebesar Rp.500.000
+
+	- Scenario: Kasir berhasil generate membuat kartu baru member
+
+	- Scenario: Kasir berhasil merefund uang dari Customer tipe Non-Member yang mengembalikan kartu.
+
+	- Scenario: Kasir dapat melihat aktifitas transaksi sesuai tanggal per-hari
+
+	- Scenario: Kasir berhasil melakukan check saldo dari customer yang ingin mengetahui sisa saldo terakhir mereka.
+
+
+#Feature Level Akses Owner
+
+	- Scenario: Doel sebagai owner berhasil membuat produk baru yaitu "Operator Vodafone" di dalam Store "Adoel Cell"
+
+	- Scenario: Owner dapat melihat list daftar produk yang telah di buat.
+
+	- Scenario: Owner berhasil buat User Baru dengan mengisi field dengan Lengkap
+
+	- Scenario: Owner dapat melihat list daftar staff sesuai dengan nama store yang di pilih
+
+	- Scenario: Owner juga bisa melakukan transaksi 
+
+
+#Feature Level Akses Staff
+
+	- Scenario: Faisal as staff Adoel Cell berhasil melakukan transaksi
+
+	- Scenario: Faisal dapat melihat aktifitas penjualna sesuai tanggal per-hari
+
+
+#Feature Level Akses Member
+
+	- Scenario: Santi as Customer dengan tipe kartu Meember berhasil membayar service Poles Body "Salon Mobil" seharga 56.000
+
+	
+
+
+
 
