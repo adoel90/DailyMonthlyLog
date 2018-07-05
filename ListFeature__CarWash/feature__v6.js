@@ -83,7 +83,7 @@
 
 	- Scenario: Faisal as staff Adoel Cell berhasil melakukan transaksi
 
-	- Scenario: Faisal dapat melihat aktifitas penjualna sesuai tanggal per-hari
+	- Scenario: Faisal dapat melihat aktifitas penjualan sesuai tanggal per-hari
 
 
 #Feature Level Akses Member
