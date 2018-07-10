@@ -9,3 +9,5 @@
 
 
 	- Scenario: "laporan di owner -- ganti jadi laporan harian" ==> DONE
+
+	- http://localhost:3000/admin/access

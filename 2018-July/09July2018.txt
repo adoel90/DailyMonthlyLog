@@ -1,3 +1,25 @@
 #
 
 	- commit & log jam "10.49" itu gw udah build Carwash.
+
+
+#
+
+	- Member - Sadio Mane - 0012018070994236
+
+
+
+
+#
+	- Laporan Kasir langsung 
+
+
+
+#Level akses Customer
+
+	- Perubahan UI di customer (layar touchscreen)
+
+		***/layouts/LayoutCustomer/HeaderCustomer/HeaderCustomer.js
+
+		***/Customer/CustomerStore/CustomerStoreContentView.js
+
