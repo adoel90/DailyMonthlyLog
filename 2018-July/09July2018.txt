@@ -23,3 +23,14 @@
 
 		***/Customer/CustomerStore/CustomerStoreContentView.js
 
+
+#
+
+	- 0032018071112626 Taxi Online
+
+	- 0022018071117382 Non Member
+
+
+#
+
+	- build 17.39
