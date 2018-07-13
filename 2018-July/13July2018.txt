@@ -1,0 +1,22 @@
+
+
+#
+
+	- Hide Nama Lengkap dan Email ==> DONE
+ 
+	- Ga ada error message kalau buat staff double ==> DONE
+
+	- Login owner menu masih salah. ikutin superadmin ==> DONE
+	
+	- Laporan di login kasir -- di rename jadi Laporan Harian Kasir ==> DONE
+
+	- Laporan Kasir - Deskripsi ini apa? kok isinya kasir semua ? ==> DONE
+
+	- Bug daftar staff, button tidak bisa diklik ==> DONE
+
+
+#
+
+	- Laporan Harian Kasir di klik, langsung error ==> ERROR BACK-END
+
+	- Member Baru - Nomor kartu yang sudah ada membernya tetep bisa dibuat new
