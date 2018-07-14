@@ -1,0 +1,29 @@
+#Method: get
+
+	http://128.199.177.16:3307/saldo/list?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxLCJ1X25hbWUiOiJTdXBlciBBZG1pbiIsInVfdXNlcm5hbWUiOiJzdXBlcmFkbWluIiwidV9lbWFpbCI6InN1cGVyYWRtaW5AZ21haWwuY29tIiwidV9wYXNzd29yZCI6IjdjMjIyZmIyOTI3ZDgyOGFmMjJmNTkyMTM0ZTg5MzI0ODA2MzdjMGQiLCJ1bF9pZCI6MSwiY3JlYXRlZF9hdCI6IjIwMTgtMDMtMTFUMjM6MzE6NTguNzE4WiIsInVwZGF0ZWRfYXQiOiIyMDE4LTA3LTExVDA0OjQ3OjQ2LjAwMFoiLCJkZWxldGVkX2F0IjpudWxsLCJ1bF9uYW1lIjoiU3VwZXJhZG1pbiJ9.ZSlNj_FN6NkoWTkidZsbMHJTyVAq2BHn1BFphLsjpoA
+
+
+#Methjod: Patch
+
+	http://128.199.177.16:3307/saldo/update?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxLCJ1X25hbWUiOiJTdXBlciBBZG1pbiIsInVfdXNlcm5hbWUiOiJzdXBlcmFkbWluIiwidV9lbWFpbCI6InN1cGVyYWRtaW5AZ21haWwuY29tIiwidV9wYXNzd29yZCI6IjdjMjIyZmIyOTI3ZDgyOGFmMjJmNTkyMTM0ZTg5MzI0ODA2MzdjMGQiLCJ1bF9pZCI6MSwiY3JlYXRlZF9hdCI6IjIwMTgtMDMtMTFUMjM6MzE6NTguNzE4WiIsInVwZGF0ZWRfYXQiOiIyMDE4LTA3LTExVDA0OjQ3OjQ2LjAwMFoiLCJkZWxldGVkX2F0IjpudWxsLCJ1bF9uYW1lIjoiU3VwZXJhZG1pbiJ9.ZSlNj_FN6NkoWTkidZsbMHJTyVAq2BHn1BFphLsjpoA
+
+
+#
+
+	- 0032018071273897 Taxi Online
+
+	- 0022018071271325 Non-Member
+
+	- 0032018071273897 Member
+
+	- 0012018071277851 Member 2
+
+
+#
+	- Penambahan/perubahan field pada jenis kartu (non-member, member, dan taxi online)
+
+		***/Admin/AdminStoreCashierTopUp/AdminStoreCashierTopUp.js
+
+		***/Admin/AdminStoreCashierKartuBaru/AdminStoreCashierKartuBaruConfirmationModal.js
+
+		***/Admin/AdminStoreCashierKartuBaru/AdminStoreCashierKartuBaru.js

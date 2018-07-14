@@ -1,0 +1,80 @@
+#
+
+	- Superadmin - Buat Toko Baru - Select owner ga muncul !!!
+
+	- Hide nama lengkap dan email dari menu user
+
+	- username superadmin harusnya ga bisa di edit. 
+
+	- menu - cek saldo double
+
+	- Detail Histori Customer
+
+		***Total Pembayaran diganti menjadi Jumlah
+
+		***Urutan Kolom : Tanggal, Transaksi, Jumlah
+
+	- UI di tulis kartu tidak lagi "tab", jadi satu layar sudah bisa generate and copy card number "Taxi Online, Member & Non-member" ==> DONE
+
+	- Superadmin - Ganti nama dibawah dibawah ini jadi username ==> DONE
+
+	- Tooltip jangan bisa diketik ==> DONE
+
+	- Remove superadmin dari Daftar user ==> DONE
+
+	- Remove akses superadmin dari buat user baru ==> DONE
+
+	- Grouping di login Kasir/Owner dan namanya menunya ngikut seperti di menu superadmin yah ==> DONE
+
+	- Cek Saldo ==> DONE
+
+	- Kasir - Tooltip jangan bisa diketik ==> DONE
+
+	- Tooltip jangan bold ==> DONE
+
+	- semua kata manajemen diganti jadi Pengaturan ==> DONE
+
+	- Grouping baru -- Member ==> DONE
+
+	- Nama Menu dan Urutannya ==> DONE
+
+		***Kasir
+
+			Daftar Member
+			Buat Member Baru
+			Isi Ulang
+			Refund
+			Cek Saldo
+			Tulis Kartu Baru
+
+		***Toko
+
+			Penjualan (Dulunya Transaksi)
+			Daftar Staff
+			Buat Staff Baru
+			Daftar Produk
+			Buat Produk Baru
+
+		***Pengaturan Toko
+			
+			Daftar Toko
+			Buat Toko Baru
+
+		***Pengaturan Kasir/Owner
+		
+			Daftar Kasir/Owner
+			Buat Kasir/Owner Baru
+
+		***Jenis Kartu Member
+			
+			Jenis Kartu Member
+
+		***Laporan
+			
+			Laporan Total Penjualan
+			Laporan Kasir
+			Laporan Member
+
+
+
+0032018071129139

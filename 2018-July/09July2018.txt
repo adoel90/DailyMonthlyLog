@@ -1,0 +1,41 @@
+#
+
+	- commit & log jam "10.49" itu gw udah build Carwash.
+
+
+#
+
+	- Member - Sadio Mane - 0012018070994236
+
+
+#
+	- Laporan Kasir langsung 
+
+
+#Level akses Customer
+
+	- Perubahan UI di customer (layar touchscreen)
+
+		***/layouts/LayoutCustomer/HeaderCustomer/HeaderCustomer.js
+
+		***/Customer/CustomerStore/CustomerStoreContentView.js
+
+
+#
+
+	- 0032018071112626 Taxi Online
+
+	- 0022018071117382 Non Member
+
+
+#
+
+	- 0032018071273897 Taxi Online
+
+	- 0022018071271325 Non-Member
+
+	- 0012018071292451 Member
+
+	- 0012018071292451
+
+	- eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjoxLCJ1X25hbWUiOiJTdXBlciBBZG1pbiIsInVfdXNlcm5hbWUiOiJzdXBlcmFkbWluIiwidV9lbWFpbCI6InN1cGVyYWRtaW5AZ21haWwuY29tIiwidV9wYXNzd29yZCI6IjdjMjIyZmIyOTI3ZDgyOGFmMjJmNTkyMTM0ZTg5MzI0ODA2MzdjMGQiLCJ1bF9pZCI6MSwiY3JlYXRlZF9hdCI6IjIwMTgtMDMtMTFUMjM6MzE6NTguNzE4WiIsInVwZGF0ZWRfYXQiOiIyMDE4LTA3LTExVDA0OjQ3OjQ2LjAwMFoiLCJkZWxldGVkX2F0IjpudWxsLCJ1bF9uYW1lIjoiU3VwZXJhZG1pbiJ9.ZSlNj_FN6NkoWTkidZsbMHJTyVAq2BHn1BFphLsjpoA
