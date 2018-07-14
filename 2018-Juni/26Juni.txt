@@ -1,0 +1,55 @@
+#Yang saya lakukeun :
+
+	* Login sebagai Owner dengan username 'namasembarang', Owner berhasil melihat penjualan dari seluruh staff-nya (juminten, Jumintun, juminton) 
+
+		Given, Owner berada di page 'Laporan Penjualan' setelah login as owner
+		When, klik dropdownlist 'Pilih Staff'
+		Then, muncul nama- nama staff yang ingin di lihat laporan penjualan-nya berdasarkan tanggal
+
+
+	* juminten bekerja pada shift-1 dari jam 7 pagi sampai jam 4 sore pada tanggal 26 Juni 2018, kemudian juminten melakukan transaksi- transaksi pada waktu tersebut. Juminten berhasil melakukan transaksi penjualan & menampilkan laporan penjualan-nya dari jam 7 pagi - 4 sore (26 Juni 2018).
+
+		Given, staff owner 'juminten' berada di landing page after login
+		When, juminten klik 'Laporan'
+		Then, muncul list seluruh invoice transaksi yang di lakukan (case ini yang ingin di lihat tgl 26 Juni)
+
+
+	*Scenario : juminton bekerja pada shift-2 dari jam 4 sampai jam 10 malam pada tanggal 26 Juni 2018, kemudian juminton melakukan transaksi- transaksi pada waktu tersebut. Juminten berhasil melakukan transaksi penjualan & menampilkan laporan penjualan-nya dari jam 4 sore - 10 malam (26 Juni 2018).
+
+	Karyawan yang berbeda seperti Juminton dapat melihat transaksi yang di lakukan oleh juminten karena based on tanggal transaksi yaitu 26 Juni 2018
+
+		Given, staff owner 'juminten' berada di landing page after login
+		When, Juminton klik 'Laporan'
+		Then, muncul list seluruh invoice transaksi yang di lakukan pada tanggal 27 Juni 2018
+
+
+	*Scenario last: 'Staff tertentu hanya bisa melihat laporan apa saja yang telah di jual oleh-nya' (Need to ralat). Case ini login as Owner, kemudian owner berhasil melihat laporan penjualan juminten & juminton. 
+
+		Given, Owner berada di page 'Laporan Penjualan' setelah login as owner
+		When, klik dropdownlist 'Pilih Staff' --> Juminten
+		Then, muncul list laporan penjualan yang di lakukan oleh staff juminten
+		And, owner klik dropdownlist 'Pilih Staff' --> Juminton
+		Then, muncul list laporan penjualan yang di lakukan oleh staff Juminton
+
+	
+	Kalimat saya yg ini: "Staff tertentu hanya bisa melihat laporan apa saja yang telah di jual oleh-nya" seperti-nya mesti saya ralat pak, mohon maaf pak. Yang benar seperti yang di '*Scenario last'. 
+
+
+		#thanksToGherkin:)
+
+
+
+
+# BAMINI PROJECT
+
+	- http://128.199.177.16:8000/landing
+
+
+
+#
+
+	Scenario: User berhasil melakukan pencarian di pagination manapun.
+
+	Given, berada di pagination-04
+	When, user ketik whatever in Field "Cari user yang terdaftar"
+	Then, setState() activePage to 1

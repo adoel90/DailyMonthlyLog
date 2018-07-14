@@ -31,7 +31,7 @@
 
 		***FEATURE_02a, Laporan Kartu Baru harian
 
-		***FEATURE_02b, Laporan closing-an per-shift & per-login
+		***FEATURE_02b, Laporan closing-an per-shift & per-login ==> NOT AVAILABLE
 
 		***FEATURE_03, Print when buat kartu baru 
 

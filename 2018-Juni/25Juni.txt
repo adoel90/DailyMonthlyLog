@@ -1,0 +1,19 @@
+#
+
+	Sebagai owner saya pada saat melihat (admin)Total penjualan, saya pasti ingin tahu oh ini Doel sudah 3 juta rupiah sejak jaman dinosaurus, tapi saya pengen tahu dia jualnya di tanggal berapa saja, pada saat saya cek detail penjualan (akses Detail) yang seharusnya terjadi adalah langsung memunculkan semua history dari paling baru ke paling lama penjualan si Doel, dan bukan bermain tebak tebakan di tanggal berapa kira kira DOEL berjualan. Benar atau tidak? dan pada saat saya mau pinpoint penjualan pada tanggal tertentu barulah pencarian per hari bisa di click sesuai tanggal. Saya rasa itu lebih User Friendly
+
+		- DONE
+
+
+#
+
+	Laporan Total penjualan(superadmin) tidak ada wahyundut? apa ada yang missing disini ?
+
+		- DONE
+
+
+#
+
+	- Toko Nama Sembarang
+
+		*** juminten

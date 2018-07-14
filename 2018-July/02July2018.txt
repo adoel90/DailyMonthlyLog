@@ -1,0 +1,14 @@
+#Google
+
+	- add icon in Input search react table bootstrap
+
+#
+
+	- class="react-bs-container-header table-header-wrapper"
+
+	- class="table table-hover"
+
+
+#Link Bambini
+
+	- https://www.figma.com/file/S0SO93YNDV4qL4oRE0FdYrWq/BAMBINI-PHOTOGRAPHY

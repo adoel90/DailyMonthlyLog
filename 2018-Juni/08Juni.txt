@@ -1,3 +1,67 @@
 #
 
+<<<<<<< HEAD
 	- Hawa, 0011522309086013, Member
+=======
+http://128.199.177.16:3307/card/list/generate/id?type=1&accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjozLCJ1X25hbWUiOiJLYXNpciIsInVfdXNlcm5hbWUiOiJrYXNpciIsInVfZW1haWwiOiJrYXNpckBlbWFpbC5jb20iLCJ1X3Bhc3N3b3JkIjoiN2MyMjJmYjI5MjdkODI4YWYyMmY1OTIxMzRlODkzMjQ4MDYzN2MwZCIsInVsX2lkIjozLCJjcmVhdGVkX2F0IjoiMjAxOC0wMy0xMVQyMzozMTo1OC43MThaIiwidXBkYXRlZF9hdCI6IjIwMTgtMDQtMDZUMDY6MjA6MDAuMDAwWiIsImRlbGV0ZWRfYXQiOm51bGwsInVsX25hbWUiOiJLYXNpciJ9.0H8n1xM_4BkoS6tgBSfwiob0zaVTFseFosigB1d4T7I
+
+#
+
+	- Member (1) : 0012018060627272
+
+	- Taxi Online (3) : 
+
+	- Non-Member (2): 
+
+
+# New Member
+
+	- 0032018062123784 Taxi Online
+
+	- 0022018062195949 Non Member
+
+	- 0012018060627272 Member
+
+
+# GET LIST STOCK KARTU
+
+	localhost:3307/card/list/generate/id?type=1&accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjozLCJ1X25hbWUiOiJLYXNpciIsInVfdXNlcm5hbWUiOiJrYXNpciIsInVfZW1haWwiOiJrYXNpckBlbWFpbC5jb20iLCJ1X3Bhc3N3b3JkIjoiN2MyMjJmYjI5MjdkODI4YWYyMmY1OTIxMzRlODkzMjQ4MDYzN2MwZCIsInVsX2lkIjozLCJjcmVhdGVkX2F0IjoiMjAxOC0wMy0xMVQyMzozMTo1OC43MThaIiwidXBkYXRlZF9hdCI6IjIwMTgtMDQtMDZUMDY6MjA6MDAuMDAwWiIsImRlbGV0ZWRfYXQiOm51bGwsInVsX25hbWUiOiJLYXNpciJ9.0H8n1xM_4BkoS6tgBSfwiob0zaVTFseFosigB1d4T7I
+
+
+#REMOVE MEMBER
+
+	http://128.199.177.16:3307/member/remove?accessToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1X2lkIjozLCJ1X25hbWUiOiJLYXNpciIsInVfdXNlcm5hbWUiOiJrYXNpciIsInVfZW1haWwiOiJrYXNpckBlbWFpbC5jb20iLCJ1X3Bhc3N3b3JkIjoiN2MyMjJmYjI5MjdkODI4YWYyMmY1OTIxMzRlODkzMjQ4MDYzN2MwZCIsInVsX2lkIjozLCJjcmVhdGVkX2F0IjoiMjAxOC0wMy0xMVQyMzozMTo1OC43MThaIiwidXBkYXRlZF9hdCI6IjIwMTgtMDQtMDZUMDY6MjA6MDAuMDAwWiIsImRlbGV0ZWRfYXQiOm51bGwsInVsX25hbWUiOiJLYXNpciJ9.0H8n1xM_4BkoS6tgBSfwiob0zaVTFseFosigB1d4T7I
+
+
+
+#Akses Customer
+
+	0012018062182295 - member arthur
+	0032018062127896 - taxi
+	0022018062133655 - non member
+
+
+#
+	- Rizali
+
+	- rizali
+
+	- rizali@gmail.com
+
+	- 12345678
+
+
+#
+
+	- Super Admin
+
+	- superadmin
+
+	- superadmin@gmail.com
+
+
+#
+
+	- bug-buatuserbaru-superadmin.png
+	- bug-buatuserbaru-superadmin-2.png
+>>>>>>> e844fee390cafa1cee221405f70886807679e422

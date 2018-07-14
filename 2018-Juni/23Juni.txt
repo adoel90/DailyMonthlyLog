@@ -1,0 +1,17 @@
+#Yang saya lakukeun :
+
+	Scenario: Superadmin mengakses Manajemen Produk - Buat Produk Baru. Superadmin berhasil menampilkan penawaran khusus & feature upload hanya ketika membuka store dengan kategori Service
+
+		Given, superadmin berada di page Buat Produk Baru
+		When, klik 'Pilih Store' Rajanya Sparepart
+		Then, muncul field Upload Gambar Produk
+		And, muncul togle switch Penawaran Khusus
+
+<<<<<<< HEAD
+#TEs
+=======
+
+# BUG-01
+
+	- Bug belom bisa dapetin ID STORE  when pilih store
+>>>>>>> 638ae98b76d90de70ad46994a8110344af41ae94
