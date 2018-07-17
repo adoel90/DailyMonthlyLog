@@ -1,0 +1,23 @@
+#
+
+	- Nomor Kartu ngga saya tampilin pak, karena mungkin kalau kasir-nya usil atau curanmor, bisa aja dia copy nomor kartu itu terus bisa sesuka hati topup atau beli- beli jajanan
+
+
+#
+
+	- 0032018071618415 -- Taxi
+
+	- 0022018071658492 -- Non Member
+
+	- 0012018071622587 -- Member
+
+
+#
+
+	- 0012018071767723 -- Ribery Member 3
+
+	- 0022018071784535 -- Non Member belum punya nama
+
+	- 0032018071744668 -- Taxi Online belum punya nama
+
+	- 
