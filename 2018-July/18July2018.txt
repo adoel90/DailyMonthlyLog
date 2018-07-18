@@ -1,0 +1,24 @@
+#
+
+	- 0012018071792869 - Member - Mandzukic
+
+	- 0012018071863974 - Member - Rakitic 2
+
+	- 0022018071893446 - Non-Member - Beny Non Member
+
+	- 0022018071835388 - Non-Member - Benny Non Member 2
+
+
+
+#REVIEW INTERFACE
+
+	- Create New Customer - Member ==> DONE
+
+	- Top Up Member ==> DONE
+
+
+#REVIEW INTERFACE
+
+	- Create New Customer - Non-Member ==> DONE
+
+	- Top Up Non-Member ==> DONE
