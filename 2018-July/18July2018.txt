@@ -8,6 +8,25 @@
 
 	- 0022018071835388 - Non-Member - Benny Non Member 2
 
+	- 0032018071818734 - Taxi Online - Rakitic Taxi Online 2
+
+
+
+# MAU PASANG BONUS DI MEMBER & NON-MEMBER
+
+	- 0012018071812479 - Member - 
+
+
+#
+
+	- 0012018071873929 - Member
+
+	- 0022018071811464 - Non Member
+
+	- 0022018071811464 - Non Member
+
+	- 0032018071853633 - Taxi Online
+
 
 
 #REVIEW INTERFACE
@@ -22,3 +41,41 @@
 	- Create New Customer - Non-Member ==> DONE
 
 	- Top Up Non-Member ==> DONE
+
+
+#REVIEW INTERFACE
+
+	- Create New Customer - Taxi Online
+
+	- Top Up Taxi Online
+
+
+#
+
+	Converting an Array of Objects to an Object.
+
+	Converting an object to array
+
+
+#
+
+	{
+		"id": 1,
+		"name" : "Member",
+		"minimum" : 0,
+		"bonus" : 15000,
+		"item" : [
+			{
+				"saldo": 500000,
+				"bonus": 10000
+			},
+			{
+				"saldo": 800000,
+				"bonus": 10000
+			},
+			{
+				"saldo": 800000,
+				"bonus": 300000
+			}
+		]
+	}
