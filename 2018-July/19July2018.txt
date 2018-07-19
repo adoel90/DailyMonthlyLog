@@ -1,0 +1,39 @@
+#BUGS
+
+
+	- Feature Kasir - Laporan Harian Kasir : Column Total Transaksi tidak sesuai yang di inginkan
+
+	- (INTERFACE) Mesti ada button/ icon untuk remove m_name = Null & m_balance = Null, cause untuk antisipasi SCENARIO user/kasir melakukan pembuatan "Tulis Kartu Baru" dengan tanpa melanjutkan "Buat Member Baru"
+
+
+
+
+
+
+# DONE BUGS
+
+	-  Feature Kasir - Buat Member Baru - Non Member:  Field Saldo Awal saat di ketik tidak ada , atau titik setelah 3 angka ==> DONE
+	
+	- Copy Generate Kartu belum ada notif kalau sudah ke copy ==> DONE
+
+
+	- (BACKEND) Beres- beres DB ==> DONE
+	
+
+	- Laporan Kasir harian masih blank white pada pagination ke sekian ==> DONE
+
+	- Feature Kasir : Ketika klik button Cari hari ini langsung error ==> DONE
+
+	- Feature Kasir - Buat Member Baru : Ga bisa create Non Member ==> DONE
+
+
+	- (INTERFACE) Mesti ada validasi WARNING saat belum isi option Jumlah Top Up in Feature Kasir Top Up dan Buat Kartu Baru ==> DONE
+
+	- (BACKEND) Feature Kasir - Isi Ulang - Taxi Online : Masih tidak sesuai saldo dengan nominal topup ==> DONE
+
+
+	- Pengaturan Jenis Kartu ==> DONE
+
+
+
+

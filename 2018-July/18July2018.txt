@@ -10,37 +10,42 @@
 
 	- 0032018071818734 - Taxi Online - Rakitic Taxi Online 2
 
+	- 0032018071853633 - Taxi Online - Mandzukic Taxi Online3
 
+	- 0032018071853633 - Taxi Online - Turtoise
 
-# MAU PASANG BONUS DI MEMBER & NON-MEMBER
+	- 0032018071997354 - Taxi Online - Rakitic Taxi Online 4
 
-	- 0012018071812479 - Member - 
+	- 0032018071853633 - Taxi Onlnie - Modric Taxi Onlnei
+
 
 
 #
+	- 0012018071812479 - Member - Kalinic Member
 
-	- 0012018071873929 - Member
+	- 0012018071873929 - Member - Debic Member
 
-	- 0022018071811464 - Non Member
 
-	- 0022018071811464 - Non Member
-
-	- 0032018071853633 - Taxi Online
+	
 
 
 
 #REVIEW INTERFACE
 
-	- Create New Customer - Member ==> DONE
+	- Create New Customer - Member 
 
-	- Top Up Member ==> DONE
+	- Top Up Member ==> DONE 
+
+	- Setting Jenis Kartu Member : Member ==> DONE
 
 
 #REVIEW INTERFACE
 
-	- Create New Customer - Non-Member ==> DONE
+	- Create New Customer - Non-Member
 
 	- Top Up Non-Member ==> DONE
+
+	- Setting Jenis Kartu Member : Non-Member
 
 
 #REVIEW INTERFACE
@@ -49,12 +54,8 @@
 
 	- Top Up Taxi Online
 
+	- Setting Jenis Kartu Member : Taxi Online
 
-#
-
-	Converting an Array of Objects to an Object.
-
-	Converting an object to array
 
 
 #
