@@ -1,0 +1,82 @@
+#
+
+	- 0012018071792869 - Member - Mandzukic
+
+	- 0012018071863974 - Member - Rakitic 2
+
+	- 0022018071893446 - Non-Member - Beny Non Member
+
+	- 0022018071835388 - Non-Member - Benny Non Member 2
+
+	- 0032018071818734 - Taxi Online - Rakitic Taxi Online 2
+
+	- 0032018071853633 - Taxi Online - Mandzukic Taxi Online3
+
+	- 0032018071853633 - Taxi Online - Turtoise
+
+	- 0032018071997354 - Taxi Online - Rakitic Taxi Online 4
+
+	- 0032018071853633 - Taxi Onlnie - Modric Taxi Onlnei
+
+
+
+#
+	- 0012018071812479 - Member - Kalinic Member
+
+	- 0012018071873929 - Member - Debic Member
+
+
+	
+
+
+
+#REVIEW INTERFACE
+
+	- Create New Customer - Member 
+
+	- Top Up Member ==> DONE 
+
+	- Setting Jenis Kartu Member : Member ==> DONE
+
+
+#REVIEW INTERFACE
+
+	- Create New Customer - Non-Member
+
+	- Top Up Non-Member ==> DONE
+
+	- Setting Jenis Kartu Member : Non-Member
+
+
+#REVIEW INTERFACE
+
+	- Create New Customer - Taxi Online
+
+	- Top Up Taxi Online
+
+	- Setting Jenis Kartu Member : Taxi Online
+
+
+
+#
+
+	{
+		"id": 1,
+		"name" : "Member",
+		"minimum" : 0,
+		"bonus" : 15000,
+		"item" : [
+			{
+				"saldo": 500000,
+				"bonus": 10000
+			},
+			{
+				"saldo": 800000,
+				"bonus": 10000
+			},
+			{
+				"saldo": 800000,
+				"bonus": 300000
+			}
+		]
+	}
