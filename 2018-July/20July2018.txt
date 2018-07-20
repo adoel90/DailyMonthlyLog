@@ -1,0 +1,8 @@
+#BUGS
+
+
+	- Feature Kasir - Laporan Harian Kasir : Column Total Transaksi tidak sesuai yang di inginkan
+
+	- Superadmin - Laporan Harian Kasir : Mesti-nya ada dropdownlist user level kasir
+
+	- (INTERFACE) Mesti ada button/ icon untuk remove m_name = Null & m_balance = Null, cause untuk antisipasi SCENARIO user/kasir melakukan pembuatan "Tulis Kartu Baru" dengan tanpa melanjutkan "Buat Member Baru"
