@@ -20,3 +20,20 @@
 	- Laporan Harian Kasir di klik, langsung error ==> ERROR BACK-END
 
 	- Member Baru - Nomor kartu yang sudah ada membernya tetep bisa dibuat new
+
+
+# Wifi
+
+ Password : JOHAN805 
+
+
+ #
+
+ 	- 0032018071682245 --Taxi Online
+
+ 	- 0022018071618931 --Non Member
+
+ 	- 0012018071647376
+
+
+ # Check Saldo -- Non Member (Hampir semua feature)
