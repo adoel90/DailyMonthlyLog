@@ -1,10 +1,14 @@
 #BUGS TERBARU
 	
-	- Status Aktif Produk suatu Store NOT WORK!
+	- Status Aktif Produk suatu Store NOT WORK! ==> DONE 
 
-	- Laporan Harian Owner
+	- Laporan Harian Owner ==> DONE
 
-#
 
-0032018072368446
+
+#Review Code 
+
+	- AdminTransactionSuperAdmView ==> DONE
+
+	- Table css in Laporan Member ==> DONE
 
