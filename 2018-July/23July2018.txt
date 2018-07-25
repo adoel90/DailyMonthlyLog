@@ -12,3 +12,23 @@
 
 	- Table css in Laporan Member ==> DONE
 
+
+#
+
+        <FormField>
+                <InputGroup>
+                    <Input
+                        name="search"
+                        placeholder={this.props.name}
+                        size="lg"
+                        defaultValue={ this.props.defaultValue }
+                        onKeyUp={ this.props.search }
+                        style={{padding:'20px'}}
+                        className="margin-right-small"
+                    />
+                
+                    
+                    <Button theme="light">Print</Button>
+                    
+                </InputGroup>
+            </FormField> 
