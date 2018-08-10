@@ -84,11 +84,12 @@ nav {
 main {
   background: #f9f9f9;
 }
+
 aside {
   background: #eee;
 }
 
-/* GRID-BASED LAYOUT */
+/*  LAYOUT */
 body {
   display: grid;
   min-height: 100vh;
@@ -107,6 +108,7 @@ nav {
   border-right: 0.3px solid grey;
   box-shadow: 0.3px 2px #888888;
 }
+
 
 .sidenav {
   height: 100%;

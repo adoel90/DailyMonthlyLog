@@ -1,0 +1,7 @@
+#GOOGLE: live reload with tomcat
+
+	- How to install Tcat Server
+
+	- https://www.mulesoft.com/tcat/ty/dl
+
+	- https://docs.mulesoft.com/tcat-server/v/7.1.0/quickstart
