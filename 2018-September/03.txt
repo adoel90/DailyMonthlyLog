@@ -2,3 +2,52 @@
 
 	abdul.rachman@iforce.co.id
 	abdulifc123
+
+
+#
+
+	- https://sh2.cbncloud.co.id:2096/cpsess8262287730/webmail/paper_lantern/index.html?mailclient=sqmail
+
+
+#IP RIDWAN
+
+	- 	
+
+#Username & Password Documentum Server
+
+	- IFC-PC
+	- P@ssw0rd
+
+#IP Documentum Server GW
+
+	- 192.168.1.31
+
+
+#IP Documentum Server RIDWAN
+
+	- 192.168.1.34
+
+
+#Password WIFI Loka1
+	
+	- iforce123
+
+
+#Google : getCheckinUrls()
+
+	https://github.com/mmohen/dctm-rest-samples
+
+
+#Add ANT In Windows
+
+	- https://www.mkyong.com/ant/how-to-install-apache-ant-on-windows/
+
+
+#Google : DM_STARTUP_I_DOCBASE_OWNER_NOT_FOUND
+
+	- https://kevinyeandel.wordpress.com/2007/10/18/troubleshooting-documentum-6-startup-installation-reconfiguration-and-the-windows-registry/
+
+
+#Google : how to install d2-config in tomcat
+
+	- https://msroth.wordpress.com/2015/07/27/d2-v4-5-installation-checklist/
