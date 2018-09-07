@@ -4,14 +4,10 @@
 	abdulifc123
 
 
-#
+#Login email iForce using Browser
 
 	- https://sh2.cbncloud.co.id:2096/cpsess8262287730/webmail/paper_lantern/index.html?mailclient=sqmail
-
-
-#IP RIDWAN
-
-	- 	
+	
 
 #Username & Password Documentum Server
 

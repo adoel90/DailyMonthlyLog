@@ -1,0 +1,13 @@
+Setting Repoint :
+#1, Connect Repoint dengan Docbroker, setting pad C:/Documentum/config
+#2, Setting F:\repoint_2.5\plugins\com.documentum.dfc_1.0.0\config
+#3, Open Network, and Sharing Center, sett ipv4 to your IP 10.88.88.210, 255.0.0.0
+#2b, Buka C\ProgramFileJavax86\java\jdk6\bin --> klik file --> buka Command Prompt --> Copy Path C:\Program Files (x86)\Java\jdk1.6.0_37\bin>java -jar C:\repoint_2.5\startup.jar
+
+Request data to Repository with query:
+
+
+Jalanin webtop di internet Expolreetting
+#1, Setting di tomcat Apache Server --> Module
+#2, Isi Path to --> /webtop
+#3, Isi Document Base --> C:\workspace\webtop

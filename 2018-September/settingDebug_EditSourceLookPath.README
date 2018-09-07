@@ -1,0 +1,5 @@
+Ketika DEBUG mengalami --> Edit Source Lookpath
+	-1, Klik Button Edit Source Lookpath
+	-2, Klik Add,
+	-3, Klik Java Project,
+	-4, Centang webtop/ folder source yang di dalam-nya terdapat kode yang ingin di debug

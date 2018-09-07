@@ -1,0 +1,61 @@
+user : supporting\dms.admin
+pass : mandiri1PUSAT
+
+10.204.4.101
+port:80
+
+pc bu harin
+10.206.1.130
+Eldiran2602
+Eldrian2602
+
+
+form 1
+http://10.204.90.68:10080/webtop/component/form1?indexString=index1.txt&filePath=image1.pdf
+
+
+form 2
+http://10.204.50.182:21081/webtop/component/form2?indexString=index1.txt&indexString2=index1-Copy.txt
+
+form 6
+http://localhost:8080/webtop/component/form6?indexString=indext-form6.txt
+
+cms
+http://10.204.49.117:7080/webtop/component/pisadeptol?ticket=XXZRXZYVYYUYVT&amp;object_id=09018a3981e8202f&amp;application_number=22082014029111500001&amp;document_number=22082014029111500001&amp;document_code=0010&amp;document_date=05/01/2014
+
+http://10.204.36.235:10080/cms/component/cmsviewer?object_id=09018a3981eefd02
+
+http://localhost:8080/cms/component/cmsviewernew?account_no=310100452344&cif_no=5001153272&document_code=0700&document_number=353245&document_date=11/11/2013
+
+taskspce
+http://10.204.36.235:28080/taskspace/?appname=mandiri1
+
+User Approving JakKelGad - user_app_jktklg
+
+2.4. user_tl_cv_jktsdmn - TL
+9962015236 - Heri Sunandar -TL
+user_processor_co_jktsdmn - processor
+3.7. 1087364204 - processor 2 - Sylvia Haryani
+
+1.6. 9959027103 - officer - Achmad Musa
+
+5. 0581286689 - Rachmad Hidayat Lubis - approving officer jktho
+9974005084 - Indah Kusumawardhani - groupnya: officer ccla jktho
+
+
+select * from dm_folder where object_name like 'dm_fix%' and r_creation_date >= DATE('10/01/2014 0:00:00') and r_creation_date <= DATE('10/01/2014 11:59:59')
+
+r_modify_date < date ('03/15/2014 00:00:00') 
+
+move tempdb
+use master
+
+go
+
+Alter database tempdb modify file (name = tempdev, filename = 'E:\Sqldata\tempdb.mdf')
+
+go
+
+Alter database tempdb modify file (name = templog, filename = 'E:\Sqldata\templog.ldf')
+
+go
