@@ -1,0 +1,137 @@
+
+*** Query-query Collateral ID bermanfaat:
+
+select  * from  tbl_document_type
+
+select  * from  tbl_document_type where document_code='0630'
+
+select  * from ct_ser_hak_guna_bangun_doc ENABLE (RETURN_TOP 10)
+
+select  * from ct_ser_hak_guna_bangun_doc where collateral_id 
+
+select  * from ct_akta_gadai_deposit_doc where collateral_id is not nullstring
+
+update ct_mandiri_doc object set approval_status = 0 where r_object_id='09018a39820afe13'
+
+
+
+# select * from ct_mandiri_doc where any application_number = 'bebaz_1'
+
+# delete ct_mandiri_doc object where any application_number = 'bebaz_1'
+
+# select * from dm_folder 
+
+# SELECT r_object_id, object_name from dm_document where folder('/Mandiri/Non Booking',descend)
+
+# select * from ct_mandiri_doc where a_status='LOS' and not folder('/Mandiri/Non Booking',descend) and folder('/Mandiri', descend)
+
+# queryAmbilAtribut from repository pada r_object_id & atau suatu file
+select * from ct_mandiri_doc where document_code='"+documentCode+"' and document_date='"+documentDate+"' and document_number='"+documentNumber+"' and cif_number='"+cifnumber+"'
+
+# select * from ct_mandiri_doc where any application_number = 'yoi_5' and document_code='0400' and document_date  =  DATE('10/29/2013 12:00:00 AM') and document_number='0400' and cif_number='cif_number_yoi_5'
+
+# select name from dm_type where super_name ='ct_audit_doc'
+
+# select * from dm_type where super_name = 'ct_annual_audit_plan'
+
+# Query to JOIN
+
+	- 
+		select ct_mandiri_doc.r_object_id, ct_mandiri_doc.title, 
+		ct_mandiri_doc.document_number, ct_mandiri_doc.document_date, 
+		ct_mandiri_doc.segment, ct_mandiri_doc.product_type, 
+		ct_mandiri_doc.document_code, ct_mandiri_doc.cif_number, 
+		dm_repeating1_0.account_number from 
+		ct_mandiri_doc_sp  ct_mandiri_doc, 
+		ct_mandiri_doc_r dm_repeating1_0 where 
+		((ct_mandiri_doc.cif_number= '16000255119') and 
+		(ct_mandiri_doc.i_has_folder = 1 and ct_mandiri_doc.i_is_deleted = 0)) and 
+		dm_repeating1_0.r_object_id = ct_mandiri_doc.r_object_id
+
+
+# Query to know wether sudah masuk DB apa belom dokumen yang sudah di impor & di indexplus
+
+	- select * from dm_workflow order by r_start_date desc enable (return_top 1000)
+
+	- select r_start_date,object_name,r_object_id from dm_workflow order by r_start_date desc enable (return_top 10)
+
+
+# Query to Count semua dokumen yang masuk dari CRO ke DB per-tanggal 1- 10 July 2017 
+
+	- select count (r_object_id) from ct_mandiri_doc where storage_location is not nullstring and r_creation_date >= date('07/01/2017 00:00:00') and r_creation_date <= date('07/10/2017 23:59:00')
+
+	- select count (r_object_id) from ct_mandiri_doc where storage_location is not nullstring and (time_stamp between '2017-07-10' and '2017-07-01')
+
+	- Juli 1-10 21-30
+
+	- Juni 1-10 21 -30
+
+
+# Query to count dokumen berdasarkan CO wilayah yang di inginkan 
+
+	- select count (r_object_id) from ct_mandiri_doc where storage_location = 'CO Floor Sorong'
+
+
+# Query to tarik 'cif_number' berdasarkan CO wilayah yang di inginkan 
+
+	- select cif_number from ct_mandiri_doc where storage_location='CO Floor Dumai'
+
+
+# Query to get list of users & groups yang mereka punya
+	- select distinct u.user_name, u.user_os_name, g.group_name from dm_user u, dm_group g where any g.i_all_users_names = u.user_name and r_is_group =0 order by u.user_name
+
+# '  
+
+	http://localhost:8080/webtop/component/form1?indexString=index1.txt&filePath=image1.pdf
+
+	http://10.204.90.68:16080/webtop/component/form1?indexString=index1.txt&filePath=image1.pdf
+
+	http://localhost:8080/webtop/component/form2?indexString=index1.txt&indexString2=index1-copy.txt
+
+
+*** Cara PLAY Form-2 in CT_Mandiri_Doc
+C:\Documentum\jboss4.2.0\server\startMethodServer.cmd
+
+
+# Query to know 'document type'
+
+	- select  * from  tbl_document_type where document_code='0630'
+
+	- select  * from  tbl_document_type where document_label='Sertifikat Hak Guna Bangunan'
+
+
+# Yang ngelewatin scan 
+
+select * from ct_mandiri_doc where scanned_by != '' 
+
+
+# Query Cek Total Size Dokumens CRO di 44.25
+
+	select sum(r_content_size*1.0) as total from ct_mandiri_doc where storage_location is not nullstring and a_status != 'LOS'
+
+
+# Query Cek Total Size Dokumens IRM-PDF CRO di 44.25
+
+	select sum(r_content_size*1.0) as total_size from ct_mandiri_doc where storage_location is not nullstring and a_content_type= 'irm-pdf'
+
+# Query Cek Total Size Dokumens IRM-PDF berdasarkan segmen di 44.25
+
+		select count(r_content_size*1.0) as total_size from ct_mandiri_doc where storage_location is not nullstring and a_content_type= 'irm-pdf' and segment = 'Consumer Loan' 
+
+
+# Query CIF_CORE
+
+	SELECT [WILAYAH]
+      ,[KD_CAB]
+      ,[NM_CAB]
+      ,[NO_DEB]
+      ,[NM_CUS]
+      ,[NO_REK]
+      ,[JNS_KRD]
+      ,[HUB]
+  FROM [DM_MANDIRI_REPOSITORY_docbase].[dbo].[CIF_CORE]where [NO_DEB] = '18002219921' 
+
+
+ # Query untuk liat folder dalam Cabinet
+ 
+ 	- select object_name, r_object_type from dm_sysobject where folder('/CIMB') and r_object_type in ('dm_document','dm_folder')

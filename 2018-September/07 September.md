@@ -51,6 +51,8 @@
 
 	- In minute 1.30.22 --> Create Document Type
 
+	- In minute 1.42.13 -->  2 or more application edit 1 same document
+
 		
 
 

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SpaceSchema.xsd">
+
+<space>
+
+  <border-layout-container>
+
+   <data>
+
+    <border-layout-data layoutregion='WEST' size='260' minSize='150' maxSize='500' split='true' />
+
+    <border-layout-data layoutregion='CENTER' split='true' minSize='150' maxSize='500'/>
+
+    <border-layout-data layoutregion='EAST'  size='480' maxSize='500' minSize='150' />
+
+   </data>
+
+   <content>
+
+    <border-layout-container>
+
+     <data>
+
+      <border-layout-data layoutregion='NORTH' size='0.60'/>
+
+      <border-layout-data layoutregion='SOUTH' size='0.40' />
+
+     </data>
+
+     <content>
+
+      <widget config="Browser" />
+
+      <widget config="SavedSearches" />
+
+     </content>
+
+    </border-layout-container>
+
+    <widget config="Doclist" />
+
+    <accordion-container>
+
+    <content>
+
+     <widget config="Renditions" />
+
+     <widget config="Locations" />
+
+     <widget config="Versions" />
+
+     
+
+    </content>
+
+     </accordion-container>
+
+   </content>
+
+  </border-layout-container>
+
+</space>
+
+</root>

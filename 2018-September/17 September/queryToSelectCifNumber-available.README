@@ -1,0 +1,34 @@
+#1
+select cif_number from ct_mandiri_doc where storage_location='CO Floor Dumai'
+
+#2
+http://10.204.90.73:8080/cms/component/cmsviewer?account_no=310100452351&cif_no=11000681922&document_code=0870&document_number=0630&document_date=11/11/2013&collateral_id=1234
+
+Cif Number : 11000681922 
+
+Doc Code : 0870
+
+Account Number : {310100452351} , {310100548653} , {310100391443} , 
+
+
+ text-align: center;
+  vertical-align: middle;
+ 
+var params = [
+		'height='+screen.height,
+		'width='+screen.width,
+		'fullscreen=yes' // only works in IE, but here for completeness
+		
+	].join(','); 
+
+function onclickView(srcObject,arg){
+	var newWindow = window.open('<%=request.getContextPath()%>/component/cmsviewerlast?object_id='+arg, 'popup_window', params);
+	newWindow.moveTo(0,0);
+};
+
+
+     // and any other options from
+     // https://developer.mozilla.org/en/DOM/window.open
+
+var popup = window.open('http://www.google.com', 'popup_window', params); 
+popup.moveTo(0,0);

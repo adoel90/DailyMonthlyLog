@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xsi:noNameSpaceSchemaLocation="SpaceSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<space>
+		<border-layout-container>
+			<data>
+			    <border-layout-data split="true" layoutregion="CENTER" />
+			    <border-layout-data split="true" layoutregion="EAST" size="480" />
+			    <border-layout-data split="true" layoutregion="WEST" size="260" />
+		   	</data>
+		   	<content>
+		   		<tab-container>
+		   			<content>
+		   				<widget config="doclist" />
+		   				<widget config="docgallery" />
+		   			</content>
+		   		</tab-container>
+		   		<border-layout-container>
+		   			<data>
+		   				<border-layout-data split="false" layoutregion="NORTH" size="100" />
+		   				<border-layout-data split="false" layoutregion="CENTER" />
+		   			</data>
+		   			<content>
+		   				<widget config="quicksearch" />
+		   				<accordion-container>
+		   					<content>
+								<widget config="locations" />
+				   				<widget config="versions" />
+				   				<widget config="renditions" />
+				   				<widget config="relations" />
+				   				<widget config="audits" />
+		   					</content>
+		   				</accordion-container>
+		   			</content>
+		   		</border-layout-container>
+		   		<widget config="browser" />
+		   	</content>
+		</border-layout-container>
+	</space>
+</root>
