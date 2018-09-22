@@ -6,7 +6,7 @@
 
 	3. Configuring a Property Page
 
-	4. Configuring Creation Profiles.
+	4. Configuring Creation Profiles. (Hati- hati, isi dengan seksama !!!)
 
 		- Before configuring creation profiles, configure the following components:
 
